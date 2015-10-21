@@ -3,7 +3,7 @@ This repository was made to create a E-Shop, with HTML, CSS, and Vanilla Javascr
 
 #Instructions
 
-1) clone this repo.<br />
+1) Clone this repo.<br />
 2) Create a new branch (please don't send anything to master).<br />
 3) Make your changes.<br />
 4) Make a Pull request.<br />
