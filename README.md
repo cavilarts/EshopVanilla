@@ -3,7 +3,7 @@ This repository was made to create a E-Shop, with HTML, CSS, and Vanilla Javascr
 
 #Instructions
 
-1) Clone this repo.<br />
+1) Fork this repo.<br />
 2) Install gulp `npm install --global gulp`<br />
 3) Create a new branch (please don't send anything to master).<br />
 4) Make your changes.<br />
