@@ -1,0 +1,83 @@
+@media (max-width: 580px) {
+    .slimg {
+        height: 35em;
+    }
+
+    .sliderButtons {
+        top: 30em;
+    }
+
+    .sliderButton {
+        height: 1.1em;
+        width: 1.1em;
+    }
+}
+
+@media (max-width: 959px) {
+    .slimg {
+        height: 200px;
+    }
+
+    .sliderButtons {
+        top: 12em;
+    }
+
+    .sliderButton {
+        height: 1.5em;
+        width: 1.5em;
+    }
+}
+
+@media (min-width: 960px) {
+    .slimg {
+        height: 300px;
+    }
+
+    .sliderButtons {
+        top: 12.5em;
+    }
+
+    .sliderButton {
+        height: 1em;
+        width: 1em;
+    }
+}
+
+.sliderandHeader {
+    width: 100%;
+    height: 15em;
+}
+
+.sliderImages {
+    transition: all 0.5s ease-in;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.slimg {
+    position: relative;
+    display: inline-block;
+    margin-left: -5px;
+    overflow: hidden; 
+    width: 100%;
+}
+
+.sliderButtons {
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    list-style: none;
+    padding: .5em;
+    right: 2em;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.sliderButton {
+    display: inline-block;
+    opacity: none;
+    border-radius: 50%;
+    background: #fff;
+}

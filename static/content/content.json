@@ -1,3 +1,5 @@
-{
-	
-}
+{"products":[
+    {"name":"Mint Gum", "price":"4", "image":"../images/gum/mint", "alt":"Mint Gum", "type":"Gum"},
+    {"name":"bear chocolate", "price":"12", "image":"../images/choco/bear", "type":"Chocolate"},
+    {"name":"mint gum", "price":"4", "image":"../images/hard/jaw", "type":"Hard candies"}
+]} 
