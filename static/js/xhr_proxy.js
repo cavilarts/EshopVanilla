@@ -1,4 +1,4 @@
-(function(){
+function xhrProxy() {
     var xmlhttp = new XMLHttpRequest(),
         url = "./static/content/content.json";
 
@@ -11,4 +11,8 @@
 
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
-}());
+}
+
+(function () {
+    xhrProxy();
+})();
