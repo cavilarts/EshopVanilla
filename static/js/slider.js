@@ -13,7 +13,7 @@ function slide() {
     $sliderImages.style.width = windowWidth * howManyChildren + "px";
 }
 
-function buttonChange () {
+function buttonAction () {
     for (i = 0; i < cantButtons; i++) {
         var button = sliderButtons[i];
         
