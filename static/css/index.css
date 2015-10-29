@@ -4,8 +4,9 @@ html {
 }
 
 body {
-	padding: 0;
 	margin: 0;
+    overflow-x: hidden;
+    padding: 0;
 }
 
 p {
@@ -21,8 +22,8 @@ a {
  * Escala: 1/3
 */
 
-@media (min-width: 320px) and (max-width: 480px){
-    body{
+@media (max-width: 580px) {
+    body {
         font-size: 6px;
     }
 }
@@ -32,18 +33,19 @@ a {
  * Escala: 1/1.5
 */
 
-@media (min-width: 481px) and (max-width : 767px){
+@media (max-width: 959px) {
     body {
         font-size: 12px;
     }
 }
 
 /* 
- * Tablet
+ * Desktop
  * Escala: 1
 */
-@media (min-width: 768px){
-    body{
+
+@media (min-width: 960px) {
+    body {
         font-size: 18px;
     }
 }

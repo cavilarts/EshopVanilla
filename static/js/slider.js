@@ -1,9 +1,8 @@
-var i, windowWidth = window.innerWidth,
+var windowWidth = window.innerWidth,
     $sliderImages = document.getElementsByClassName('sliderImages')[0],
     howManyChildren = $sliderImages.children.length,
     $imageSlider = document.getElementsByClassName('slimg'),
     sliderButtons = Array.prototype.slice.call(document.getElementsByClassName('sliderButton')),
-    //sliderButtons = document.getElementsByClassName('sliderButton'),
     cantButtons = sliderButtons.length;
     
 function slide() {
