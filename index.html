@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="static/images/favicon.png">
+    <link rel="icon" type="image/png" href="static/images/icons/favicon.png">
     <!-- Estilos -->
     <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/shoppingCart.css">
     <link rel="stylesheet" type="text/css" href="static/css/slider.css">
+    <link rel="stylesheet" type="text/css" href="static/css/upperBar.css">
     <title>Prodigious Store Challenge</title>
 </head>
 <body>
-	<div class="sliderandHeader">
+    <!-- <script type="text/javascript" src="static/js/xhr_proxy.js"></script> -->
+
+    
+
+    <!-- <script type="text/javascript" src="static/js/shoppingCart.js"></script> -->
+
+
+
+    <header class="upperBar">
+        <div class="shopName">
+            <img class="shopIcon" src="static/images/icons/favicon.png">
+            Prodigious Store Challenge
+        </div>
+
+        <section class="shoppingCartPanel">
+            <div class="shoppingCartButton">
+                <a href="#openMB">
+                    <img class="shoppingCartIcon" src="static/images/icons/cart.png"></img>
+                </a>
+            </div>
+
+            <div id="openMB" class="modalBox">
+                <div class="modalBoxContent">
+                    <a href="#closeMB" title="Close" class="closeMB">X</a>
+                    <h2>Shopping cart</h2>
+                    <p>Coming soon</p>
+                </div>
+            </div>
+                    
+            <div class="productsInCart">0</div>
+
+            <div class="cantProducts">products</div>
+        </section>
+    </header>
+
+    
+
+    <h1 class="mostPop">Most Popular Products</h1>
+
+    <div class="slider">
         <ul class="sliderImages">
-            <li class="slimg"><img src="static/images/choco/bear.jpg"></li>
-            <li class="slimg"><img src="static/images/gum/mint.jpg"></li>
-            <li class="slimg"><img src="static/images/hard/jaw.jpg"></li>
+            <li class="slimg">
+                <img src="static/images/choco/bear.jpg">
+                <p>Hola</p>
+            </li>
+            <li class="slimg">
+                <img src="static/images/gum/mint.jpg">
+            </li>
+            <li class="slimg">
+                <img src="static/images/hard/jaw.jpg">
+            </li>
         </ul>
         
         <ul class="sliderButtons">
@@ -21,8 +69,7 @@
             <li class="sliderButton"></li>
         </ul>
     </div>
-    
-    <script type="text/javascript" src="static/js/xhr_proxy.js"></script>
+
     <script type="text/javascript" src="static/js/slider.js"></script>
 </body>
 </html>

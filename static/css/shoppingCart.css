@@ -1,0 +1,23 @@
+.shoppingCartPanel {
+	background-color: #F3DD44;
+	color: #000;
+	float: right;
+	height: auto;
+	padding: .75em;
+	top: inherit;
+}
+
+.shoppingCartPanel div {
+	display: inline-block;
+}
+
+.shoppingCartButton {
+	margin-right: .5em;
+}
+
+.shoppingCartIcon {
+	border: 1px solid #000;
+	border-radius: 50%;
+	height: 1.25em;
+	width: 1.25em;
+}

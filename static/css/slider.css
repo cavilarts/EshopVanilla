@@ -1,10 +1,10 @@
-@media (max-width: 580px) {
+@media (max-width: 480px) {
     .slimg {
         height: 35em;
     }
 
     .sliderButtons {
-        top: 30em;
+        top: 33em;
     }
 
     .sliderButton {
@@ -34,7 +34,7 @@
     }
 
     .sliderButtons {
-        top: 12.5em;
+        top: 15.5em;
     }
 
     .sliderButton {
@@ -43,16 +43,28 @@
     }
 }
 
-.sliderandHeader {
+.mostPop {
+    margin-top: 1.5em;
+    color: #fff;
+    padding-left: 5%;
+    position: absolute;
+    width: 100%;
+    background-color: #0079BF;
+}
+
+.slider {
     width: 100%;
     height: 15em;
 }
 
+
+
 .sliderImages {
-    transition: all 0.5s ease-in;
+    transition: all 0.75s ease-in;
     position: absolute;
     top: 0;
     margin: 0;
+    margin-top: 5.45em;
     padding: 0;
 }
 

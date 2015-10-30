@@ -17,16 +17,12 @@ a {
 	text-decoration: none;
 }
 
-/*.shopName {
-    
-}*/
-
 /* 
  * Mobile
  * Escala: 1/3
 */
 
-@media (max-width: 580px) {
+@media (max-width: 480px) {
     body {
         font-size: 6px;
     }
