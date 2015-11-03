@@ -23,9 +23,9 @@
                 var index = sliderButtons.indexOf(e.currentTarget);
 
                 $sliderImages.style.left = windowWidth * (index) * (-1) + "px";
-                /*button.className = "sliderButtonActive";
+                button.className = "sliderButtonActive";
 
-                if (button[i] === index) {
+                /*if (button[i] === index) {
                     button.className = "sliderButtonDeactive";
                 }*/
             });

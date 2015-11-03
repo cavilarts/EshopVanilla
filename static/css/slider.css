@@ -94,10 +94,12 @@
 /* Styles not sizes */
 
 .slider {
+    display: block;
     margin: 0;
     padding: 0;
     overflow: hidden;
     max-width: 100%;
+
 }
 
 .sliderImages {
@@ -106,19 +108,13 @@
     overflow: hidden;
     position: absolute;
     transition: all 0.75s ease-in;
-    
 }
 
 .sliderList {
     display: inline-block;
     overflow: hidden;
     position: relative;
-    max-width: 100%;
     z-index: 1;
-}
-
-.sliderImage {
-    max-width: 100%;
 }
 
 @font-face {
