@@ -2,13 +2,13 @@
 
 @media (max-width: 480px) {
     .slider {
-        max-width: 480px;
         margin-top: 50px;
+        max-width: 480px;
     }
 
-    .slimg {
+    .sliderList {
         height: 250px;
-        margin-left: -2px;
+        margin-left: -3px;
     }
 
     .slimgDesc {
@@ -31,29 +31,26 @@
 /* Tablet */
 
 @media (min-width: 481px) and (max-width: 959px) {
-    /*change*/
-
     .slider {
         max-width: 959px;
-        height: 15em;
     }
 
-    .slimg {
-        height: 123px;
-        margin-left: -5px; /*?*/
+    .sliderList {
+        height: 250px;
+        margin-left: -3px; /*?*/
     }
 
     .slimgDesc {
+        font-size: 20px;
+        padding: 3px;
         position: absolute;
-        padding: .25em;
-        left: 1em;
-        bottom: 1em;
+        left: 15px;
+        bottom: 15px;
     }
 
     .sliderButtons {
         top: 15px;
-        padding: .5em;
-        right: 1em;
+        right: 20px;
     }
 
     .sliderButton {
@@ -66,26 +63,20 @@
 /* Desktop */
 
 @media (min-width: 960px) {
-    /*change*/
-
-    .slider {
-        min-width: 960px;
-    }
-
     .sliderImages {
         z-index: -1;
     }
 
-    .slimg {
-        height: 250px;
+    .sliderList {
+        height: 300px;
         margin-left: -5px;
     }
 
     .slimgDesc {
         position: absolute;
-        padding: .25em;
-        left: 1.25em;
-        bottom: 1.25em;
+        padding: 5px;
+        left: 15px;
+        bottom: 15px;
     }
 
     .sliderButtons {
@@ -103,6 +94,8 @@
 /* Styles not sizes */
 
 .slider {
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     max-width: 100%;
 }
@@ -116,16 +109,27 @@
     
 }
 
-.slimg {
+.sliderList {
     display: inline-block;
     overflow: hidden;
     position: relative;
+    max-width: 100%;
     z-index: 1;
 }
 
+.sliderImage {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "DIN Alternate Bold";
+    src: url('../fonts/DIN Alternate Bold/DIN Alternate Bold.otf');
+}
+
 .slimgDesc {
-    background-color: #414141;
-    color: #fff;
+    background-color: #fff;
+    color: #414141;
+    font-family: "DIN Alternate Bold";
     z-index: 2;
 }
 

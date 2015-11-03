@@ -3,7 +3,7 @@
         $sliderImages = document.getElementsByClassName('sliderImages')[0],
         sliderButtons = Array.prototype.slice.call(document.getElementsByClassName('sliderButton')),
         cantButtons = sliderButtons.length,
-        $imageSlider = document.getElementsByClassName('slimg');
+        $imageSlider = document.getElementsByClassName('sliderList');
         
     function sliderWidth() {
         var howManyChildren = $sliderImages.children.length;
