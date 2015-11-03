@@ -1,32 +1,52 @@
-.upperBar {
-	background-color: #13C7B6;
+/* Mobile */
 
-	-webkit-box-shadow: 0px 0px 5px 0px #000;
-		-moz-box-shadow: 0px 0px 5px 0px #000;
-		box-shadow: 0px 0px 5px 0px #000;
-		
+@media (max-width: 480px) {
+	.upperBar {
+		background-color: #fff;
+		height: 50px;
+	}
+}
+
+/* Tablet */
+
+@media (min-width: 481px) and (max-width: 959px) {
+	.upperBar {
+		/*background-color: #13C7B6;*/
+		height: 75px; /*?*/
+	}
+}
+
+/* Desktop */
+
+@media (min-width: 960px) {
+	.upperBar {
+		background-color: rgba(255,255,255,0.5);
+		height: 100px;
+		padding: auto; 
+	}
+}
+
+.upperBar {
 	display: inline-block;
-	height: 3em;
 	position: absolute;
-	top: 0px;
+	top: 0;
 	width: 100%;
 }
 
+@font-face {
+	font-family: "Krinkes";
+	src: url('../fonts/krinkes/KrinkesDecorPERSONAL.ttf');
+}
+
 .shopName {
-	color: #fff;
+	color: #000;
 	display: inline-block;
 	float: left;
-	padding-top: .75em;
-	padding-bottom: .75em;
-	padding-left: 2em;
-	text-shadow: 1px 1px #000;
+	font-family: "Krinkes";
+	font-size: 1.1em;
 }
 
 .shopIcon {
 	height: 1.15em;
 	width: 1.15em;
-}
-
-.shoppingCartModalBox {
-	display: none;
 }

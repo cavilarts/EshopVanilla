@@ -1,75 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="icon" type="image/png" href="static/images/icons/favicon.png">
-    <!-- Estilos -->
-    <link rel="stylesheet" type="text/css" href="static/css/index.css">
-    <link rel="stylesheet" type="text/css" href="static/css/shoppingCart.css">
-    <link rel="stylesheet" type="text/css" href="static/css/slider.css">
-    <link rel="stylesheet" type="text/css" href="static/css/upperBar.css">
-    <title>Prodigious Store Challenge</title>
-</head>
-<body>
-    <!-- <script type="text/javascript" src="static/js/xhr_proxy.js"></script> -->
+    <head>
+        <link rel="icon" type="image/png" href="static/images/icons/favicon.png">
+        
+        <link rel="stylesheet" type="text/css" href="static/css/index.css">
+        <link rel="stylesheet" type="text/css" href="static/css/shoppingCart.css">
+        <link rel="stylesheet" type="text/css" href="static/css/slider.css">
+        <link rel="stylesheet" type="text/css" href="static/css/upperBar.css">
+        
+        <meta charset="UTF-8">
+        
+        <title>Prodigious Store Challenge</title>
+    </head>
 
-    
+    <body>
+        <script type="text/javascript" src="static/js/xhr_proxy.js"></script>
+        
+        <header class="upperBar">
+            <div class="shopName">
+                <img class="shopIcon" src="static/images/icons/favicon.png">
+                &nbsp;&nbsp;Prodigious Store Challenge2
+            </div>
 
-    <!-- <script type="text/javascript" src="static/js/shoppingCart.js"></script> -->
+            <section class="shoppingCartPanel">
+                <div class="shoppingCartButton">
+                    <a href="#openMB">
+                        <img class="shoppingCartIcon" src="static/images/icons/cart.png"></img>
+                    </a>
+                </div>
 
+                <!-- <div id="openMB" class="modalBox">
+                    <div class="modalBoxContent">
+                        <a href="#closeMB" title="Close" class="closeMB">X</a>
+                        <h2>Shopping cart</h2>
+                        <p>Coming soon</p>
+                    </div>
+                </div> -->
+                        
+                <div class="productsInCart">0</div>
 
+                <div class="cantProducts">products</div>
+            </section>
+        </header>
 
-    <header class="upperBar">
-        <div class="shopName">
-            <img class="shopIcon" src="static/images/icons/favicon.png">
-            Prodigious Store Challenge
+        <!-- <script type="text/javascript" src="static/js/shoppingCart.js"></script> -->
+
+        <div class="slider">
+            <ul class="sliderImages">
+                <li class="slimg">
+                    <img alt="Chocolate Bears" src="static/images/choco/bear.jpg">
+                    <div class="slimgDesc">The most cute and delicious bears</div>
+                </li>
+                <li class="slimg">
+                    <img alt="Mint Gum" src="static/images/gum/mint.jpg">
+                    <div class="slimgDesc">Comfortable fresh in your mouth</div>
+                </li>
+                <li class="slimg">
+                    <img alt="Jaw breakers" src="static/images/hard/jaw.jpg">
+                    <div class="slimgDesc">Chew this is a hard work</div>
+                </li>
+            </ul>
+            
+            <ul class="sliderButtons">
+                <li class="sliderButton sliderButtonActive"></li>
+                <li class="sliderButton sliderButtonDeactive"></li>
+                <li class="sliderButton sliderButtonDeactive"></li>
+            </ul>
         </div>
 
-        <section class="shoppingCartPanel">
-            <div class="shoppingCartButton">
-                <a href="#openMB">
-                    <img class="shoppingCartIcon" src="static/images/icons/cart.png"></img>
-                </a>
-            </div>
-
-            <div id="openMB" class="modalBox">
-                <div class="modalBoxContent">
-                    <a href="#closeMB" title="Close" class="closeMB">X</a>
-                    <h2>Shopping cart</h2>
-                    <p>Coming soon</p>
-                </div>
-            </div>
-                    
-            <div class="productsInCart">0</div>
-
-            <div class="cantProducts">products</div>
-        </section>
-    </header>
-
-    
-
-    <h1 class="mostPop">Most Popular Products</h1>
-
-    <div class="slider">
-        <ul class="sliderImages">
-            <li class="slimg">
-                <img src="static/images/choco/bear.jpg">
-                <p>Hola</p>
-            </li>
-            <li class="slimg">
-                <img src="static/images/gum/mint.jpg">
-            </li>
-            <li class="slimg">
-                <img src="static/images/hard/jaw.jpg">
-            </li>
-        </ul>
-        
-        <ul class="sliderButtons">
-            <li class="sliderButton"></li>
-            <li class="sliderButton"></li>
-            <li class="sliderButton"></li>
-        </ul>
-    </div>
-
-    <script type="text/javascript" src="static/js/slider.js"></script>
-</body>
+        <script type="text/javascript" src="static/js/slider.js"></script>
+    </body>
 </html>

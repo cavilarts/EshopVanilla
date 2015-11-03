@@ -5,7 +5,7 @@
         cantButtons = sliderButtons.length,
         $imageSlider = document.getElementsByClassName('slimg');
         
-    function slide() {
+    function sliderWidth() {
         var howManyChildren = $sliderImages.children.length;
             
         for (i = 0; i < $imageSlider.length; i++) {
@@ -21,11 +21,17 @@
             
             button.addEventListener("click", function(e) {
                 var index = sliderButtons.indexOf(e.currentTarget);
+
                 $sliderImages.style.left = windowWidth * (index) * (-1) + "px";
+                /*button.className = "sliderButtonActive";
+
+                if (button[i] === index) {
+                    button.className = "sliderButtonDeactive";
+                }*/
             });
         }
     }
 
-    slide();
+    sliderWidth();
     slideAction();
 })();

@@ -1,95 +1,149 @@
+/* Mobile */
+
 @media (max-width: 480px) {
+    .slider {
+        max-width: 480px;
+        margin-top: 50px;
+    }
+
     .slimg {
-        height: 35em;
+        height: 250px;
+        margin-left: -2px;
+    }
+
+    .slimgDesc {
+        display: none;
     }
 
     .sliderButtons {
-        top: 33em;
+        top: 260px;
+        right: 20px;
     }
 
     .sliderButton {
-        height: 1.1em;
-        width: 1.1em;
+        border: 1px;
+        height: 15px;
+        margin: 2.5px;
+        width: 15px;
     }
 }
 
-@media (max-width: 959px) {
+/* Tablet */
+
+@media (min-width: 481px) and (max-width: 959px) {
+    /*change*/
+
+    .slider {
+        max-width: 959px;
+        height: 15em;
+    }
+
     .slimg {
-        height: 200px;
+        height: 123px;
+        margin-left: -5px; /*?*/
+    }
+
+    .slimgDesc {
+        position: absolute;
+        padding: .25em;
+        left: 1em;
+        bottom: 1em;
     }
 
     .sliderButtons {
-        top: 12em;
+        top: 15px;
+        padding: .5em;
+        right: 1em;
     }
 
     .sliderButton {
-        height: 1.5em;
-        width: 1.5em;
+        border: 1px;
+        height: .75em;
+        width: .75em;
     }
 }
+
+/* Desktop */
 
 @media (min-width: 960px) {
+    /*change*/
+
+    .slider {
+        min-width: 960px;
+    }
+
+    .sliderImages {
+        z-index: -1;
+    }
+
     .slimg {
-        height: 300px;
+        height: 250px;
+        margin-left: -5px;
+    }
+
+    .slimgDesc {
+        position: absolute;
+        padding: .25em;
+        left: 1.25em;
+        bottom: 1.25em;
     }
 
     .sliderButtons {
-        top: 15.5em;
+        top: 190px;
+        right: 20px;
     }
 
     .sliderButton {
-        height: 1em;
-        width: 1em;
+        border: 2px;
+        height: 12.5px;
+        width: 12.5px;
     }
 }
 
-.mostPop {
-    margin-top: 1.5em;
-    color: #fff;
-    padding-left: 5%;
-    position: absolute;
-    width: 100%;
-    background-color: #0079BF;
-}
+/* Styles not sizes */
 
 .slider {
-    width: 100%;
-    height: 15em;
+    overflow: hidden;
+    max-width: 100%;
 }
 
-
-
 .sliderImages {
-    transition: all 0.75s ease-in;
-    position: absolute;
-    top: 0;
     margin: 0;
-    margin-top: 5.45em;
     padding: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: all 0.75s ease-in;
+    
 }
 
 .slimg {
-    position: relative;
     display: inline-block;
-    margin-left: -5px;
-    overflow: hidden; 
-    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.slimgDesc {
+    background-color: #414141;
+    color: #fff;
+    z-index: 2;
 }
 
 .sliderButtons {
-    background: #000;
-    opacity: 0.5;
-    position: absolute;
     list-style: none;
-    padding: .5em;
-    right: 2em;
-    border-radius: 25%;
-    cursor: pointer;
+    position: absolute;
+    z-index: 2;
 }
 
-.sliderButton {
-    display: inline-block;
-    opacity: none;
+.sliderButton,  .sliderButtonDeactive {
+    background: #414141;
+    border: solid #fff;
     border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.sliderButtonActive {
     background: #fff;
+    border-color: #414141;
 }
