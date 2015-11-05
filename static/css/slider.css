@@ -43,6 +43,10 @@
         margin-left: -3px;
     }
 
+    .sliderImages {
+        z-index: -3;
+    }
+
     .sliderImage {
         height: 275px;
     }

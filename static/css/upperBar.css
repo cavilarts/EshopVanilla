@@ -7,6 +7,12 @@
 		position: absolute;
 		z-index: 2;
 	}
+
+	.shopName {
+		margin-top: 13px;
+		margin-left: 15px;
+		font-size: 16px;
+	}
 }
 
 /* Tablet */
@@ -15,7 +21,12 @@
 	.upperBar {
 		background-color: rgba(255,255,255,0.5);
 		height: 75px;
-		/*padding: ;*/
+	}
+
+	.shopName {
+		margin-left: 25px;
+		margin-top: 16px;
+		font-size: 22px;
 	}
 }
 
@@ -25,12 +36,18 @@
 	.upperBar {
 		background-color: rgba(255,255,255,0.5);
 		height: 100px;
-		/*padding: auto;*/ 
+	}
+
+	.shopName {
+		margin-left: 25px;
+		margin-top: 30px;
+		font-size: 25px;
 	}
 }
 
-.upperBar {
+/* Styles, not sizes */
 
+.upperBar {
 	display: inline-block;
 	position: absolute;
 	top: 0;
@@ -47,7 +64,6 @@
 	display: inline-block;
 	float: left;
 	font-family: "Krinkes";
-	font-size: 1.1em;
 }
 
 .shopIcon {
