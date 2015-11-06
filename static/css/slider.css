@@ -2,7 +2,6 @@
 
 @media (max-width: 480px) {
     .slider {
-        margin-top: 50px;
         z-index: -3;
     }
 
@@ -42,6 +41,10 @@
 @media (min-width: 481px) and (max-width: 959px) {
     .sliderList {
         margin-left: -3px;
+    }
+
+    .sliderImages {
+        z-index: -3;
     }
 
     .sliderImage {
@@ -147,7 +150,7 @@
     z-index: 3;
 }
 
-.sliderButton,  .deactive {
+.sliderButton {
     background: #414141;
     border: solid #fff;
     border-radius: 50%;
@@ -159,6 +162,3 @@
     background: #fff;
     border-color: #414141;
 }
-
-
-
