@@ -23,7 +23,7 @@
 
 @media (min-width: 481px) and (max-width: 959px) {
     .wrapper {
-    	max-width: 959px;
+        max-width: 959px;
         margin-top: 350px;
     }
 
@@ -65,7 +65,7 @@
 
 	.productCard {
         background-color: #F4F4F4;
-		display: inline-block;
+        display: inline-block;
         margin: 10px;
         width: 74%;
 	}
@@ -82,16 +82,16 @@
 }
 
 .productList {
-	display: inline-block;
-	position: relative;
+    display: inline-block;
+    position: relative;
     margin: auto;
     padding: auto;
 }
 
 .productCard {
-	width: 300px;
-	height: 200px;
-	border: 1px solid #000;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
     font-family: Tahoma;
 }
 
