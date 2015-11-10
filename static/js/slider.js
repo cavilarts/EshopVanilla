@@ -50,11 +50,7 @@
         }
 
         $sliderImages.style.width = (windowWidth * $sliderList.length) + "px";
-        console.log($sliderImages.style.left + "px");
-
-        /*Por que a la primera no hace resize:
-
-        Necesito saber como hacer para hacer que slider ima*/
+        console.log($sliderImages.style.left);
 
     }
 
