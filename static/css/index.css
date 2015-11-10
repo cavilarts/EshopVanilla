@@ -17,27 +17,3 @@ p {
 a {
 	text-decoration: none;
 }
-
-/*  Mobile: */
-
-@media (max-width: 480px) {
-    body {
-        font-size: 6px;
-    }
-}
-
-/*  Tablet: */
-
-@media (min-width: 481px) and (max-width: 959px) {
-    body {
-        font-size: 12px;
-    }
-}
-
-/* Desktop: */
-
-@media (min-width: 960px) {
-    body {
-        font-size: 18px;
-    }
-}

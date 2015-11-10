@@ -4,7 +4,6 @@
         <link rel="icon" type="image/png" href="static/images/icons/favicon.png">
         
         <link rel="stylesheet" type="text/css" href="static/css/index.css">
-        <link rel="stylesheet" type="text/css" href="static/css/shoppingCart.css">
         <link rel="stylesheet" type="text/css" href="static/css/products.css">
         <link rel="stylesheet" type="text/css" href="static/css/slider.css">
         <link rel="stylesheet" type="text/css" href="static/css/upperBar.css">
@@ -16,31 +15,75 @@
     </head>
 
     <body>
+        <header class="upperBar">
+        <div class="shopName">
+            <img class="shopIcon" src="static/images/icons/favicon.png">
+            Prodigious Store Challenge3
+        </div>
+    </header>
+
         <div class="slider">
             <ul class="sliderImages">
                 <li class="sliderList">
-                    <img class="sliderImage" alt="Chocolate Bears" src="static/images/choco/bear/main_slider.jpg">
-                    <div class="slimgDesc">THE MOST CUTE AND DELICIOUS BEARS</div>
+                    <img class="sliderImage sliderImage1" alt="Chocolate Bears">
+                    <p class="slimgDesc">THE MOST CUTE AND DELICIOUS BEARS</p>
                 </li>
                 <li class="sliderList">
-                    <img class="sliderImage" alt="Mint Gum" src="static/images/gum/mint/main_slider.jpg">
-                    <div class="slimgDesc">COMFORTABLE FRESH IN YOUR MOUTH</div>
+                    <img class="sliderImage sliderImage2" alt="Mint Gum">
+                    <p class="slimgDesc">COMFORTABLE FRESH IN YOUR MOUTH</p>
                 </li>
                 <li class="sliderList">
-                    <img class="sliderImage" alt="Jaw breakers" src="static/images/hard/jaw/main_slider.jpg">
-                    <div class="slimgDesc">CHEW THIS IS A HARD WORK</div>
+                    <img class="sliderImage sliderImage3" alt="Jaw breakers">
+                    <p class="slimgDesc">CHEW THIS IS A HARD WORK</p>
                 </li>
             </ul>
             
             <ul class="sliderButtons">
                 <li class="sliderButton active"></li>
-                <li class="sliderButton deactive"></li>
-                <li class="sliderButton deactive"></li>
+                <li class="sliderButton"></li>
+                <li class="sliderButton"></li>
             </ul>
 
             <div class="sliderGradient"></div>
         </div>
 
         <script type="text/javascript" src="static/js/slider.js"></script>
+
+        <div class="wrapper">
+            <aside class="filter"></aside>
+
+            <section class="productList">
+                <div class="productCard">
+                    <div class="productDescription">Comfortable fresh in your mouth</div>
+                    <div class="productName">MINT GUM</div>
+                    <div class="productDetails"></div>
+                    <div class="addCart"></div>
+                </div>
+                <div class="productCard">
+                    <div class="productDescription">The most cute and delicious bears</div>
+                    <div class="productName">CHOCOLATE BEAR</div>
+                    <div class="productDetails"><p></p></div>
+                    <div class="addCart"></div>
+                </div>
+                <div class="productCard">
+                    <div class="productDescription">Chew this is a hard work</div>
+                    <div class="productName">JAW BREAKERS</div>
+                    <div class="productDetails"></div>
+                    <div class="addCart"></div>
+                </div>
+                <div class="productCard">
+                    <div class="productDescription">A colorful delight</div>
+                    <div class="productName">RAINBOW LOLLIPOP</div>
+                    <div class="productDetails"></div>
+                    <div class="addCart"></div>
+                </div>
+                <div class="productCard">
+                    <div class="productDescription">Acidly delicious</div>
+                    <div class="productName">GUMONADE</div>
+                    <div class="productDetails"></div>
+                    <div class="addCart"></div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>

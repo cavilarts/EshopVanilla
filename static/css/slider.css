@@ -2,7 +2,6 @@
 
 @media (max-width: 480px) {
     .slider {
-        margin-top: 50px;
         z-index: -3;
     }
 
@@ -12,6 +11,18 @@
 
     .sliderImage {
         height: 350px;
+    }
+
+    .sliderImage1 {
+        content: url('../images/choco/bear/main_slider-mobile.jpg');
+    }
+
+    .sliderImage2 {
+        content: url('../images/gum/mint/main_slider-mobile.jpg');
+    }
+
+    .sliderImage3 {
+        content: url('../images/hard/jaw/main_slider-mobile.jpg');
     }
 
     .slimgDesc {
@@ -44,13 +55,32 @@
         margin-left: -3px;
     }
 
+    .sliderImages {
+        z-index: -3;
+    }
+
     .sliderImage {
         height: 275px;
     }
 
+    .sliderImage1 {
+        content: url('../images/choco/bear/main_slider-tablet.jpg');
+    }
+
+    .sliderImage2 {
+        content: url('../images/gum/mint/main_slider-tablet.jpg');
+    }
+
+    .sliderImage3 {
+        content: url('../images/hard/jaw/main_slider-tablet.jpg');
+    }
+
     .slimgDesc {
-        font-size: 17px;
-        padding: 3px;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 20px;
         position: absolute;
         left: 15px;
         bottom: 15px;
@@ -65,6 +95,10 @@
         border: 1px;
         height: 12.5px;
         width: 12.5px;
+    }
+
+    .sliderGradient {
+        display: none;
     }
 }
 
@@ -83,12 +117,27 @@
         height: 300px;
     }
 
+    .sliderImage1 {
+        content: url('../images/choco/bear/main_slider-desktop.jpg');
+    }
+
+    .sliderImage2 {
+        content: url('../images/gum/mint/main_slider-desktop.jpg');
+    }
+
+    .sliderImage3 {
+        content: url('../images/hard/jaw/main_slider-desktop.jpg');
+    }
+
     .slimgDesc {
-        font-size: 20px;
+        font-size: 40px;
         position: absolute;
-        padding: 5px;
+        padding-top: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 25px;
         left: 15px;
-        bottom: 15px;
+        bottom: 0px;
     }
 
     .sliderButtons {
@@ -101,6 +150,10 @@
         height: 12.5px;
         width: 12.5px;
     }
+
+    .sliderGradient {
+        display: none;
+    }
 }
 
 /* Styles not sizes */
@@ -109,6 +162,7 @@
     margin-top: 0;
     margin: 0;
     padding: 0;
+
 }
 
 .sliderImages {
@@ -126,6 +180,7 @@
 }
 
 .sliderImage {
+    max-width: 100%;
     z-index: 2;
 }
 
@@ -147,7 +202,7 @@
     z-index: 3;
 }
 
-.sliderButton,  .deactive {
+.sliderButton {
     background: #414141;
     border: solid #fff;
     border-radius: 50%;
@@ -159,6 +214,3 @@
     background: #fff;
     border-color: #414141;
 }
-
-
-
