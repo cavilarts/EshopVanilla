@@ -1,7 +1,7 @@
 /* Mobile */
 
 @media (max-width: 480px) {
-	.upperBar {
+	.headerBar {
 		background-color: #fff;
 		height: 50px;
 		position: absolute;
@@ -18,12 +18,24 @@
 		height: 20px;
 		width: 20px;
 	}
+
+	.headerPull-downMenu {
+		display: inline-block;
+		height: auto;
+		margin-left: 30px;
+		width: 30px;
+	}
+
+	.catCart {
+		margin-right: 10px;
+		margin-top: 5px;
+	}
 }
 
 /* Tablet */
 
 @media (min-width: 481px) and (max-width: 959px) {
-	.upperBar {
+	.headerBar {
 		background-color: rgba(255,255,255,0.5);
 		height: 75px;
 	}
@@ -38,12 +50,24 @@
 		height: 25px;
 		width: 25px;
 	}
+
+	.headerPull-downMenu {
+		display: inline-block;
+		height: auto;
+		margin-left: 30px;
+		width: 30px;
+	}
+
+	.catCart {
+		margin-right: 20px;
+		margin-top: 20px;
+	}
 }
 
 /* Desktop */
 
 @media (min-width: 960px) {
-	.upperBar {
+	.headerBar {
 		background-color: rgba(255,255,255,0.5);
 		height: 100px;
 	}
@@ -58,11 +82,20 @@
 		height: 25px;
 		width: 25px;
 	}
+
+	.headerPull-downMenu {
+		display: none;
+	}
+
+	.catCart {
+		margin-right: 20px;
+		margin-top: 25px;
+	}
 }
 
 /* Styles, not sizes */
 
-.upperBar {
+.headerBar {
 	display: inline-block;
 	position: absolute;
 	top: 0;
@@ -79,4 +112,13 @@
 	display: inline-block;
 	float: left;
 	font-family: "Krinkes";
+}
+
+.catCart {
+	display: inline-block;
+	float: right;
+}
+
+.headerCategories {
+	float: left;
 }

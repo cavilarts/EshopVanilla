@@ -1,0 +1,65 @@
+/* Mobile */
+
+@media (max-width: 480px) {
+	.headerCategories {
+		display: none;
+	}
+
+	.scIcon {
+		height: auto;
+		width: 35px;
+	}
+
+	.productCounter {
+		font-size: 10px;
+		padding: 5px;
+		top: -3px;
+		right: 64px;
+	}
+}
+/* Tablet */
+
+@media (min-width: 481px) and (max-width: 959px) {
+	.scIcon {
+		height: auto;
+		width: 35px;
+	}
+
+	.productCounter {
+		font-size: 10px;
+		padding: 5px;
+		top: -3px;
+		right: 64px;
+	}
+}
+/* Desktop */
+
+@media (min-width: 960px) {
+	.scIcon {
+		height: auto;
+		width: 40px;
+	}
+
+	.productCounter {
+		font-size: 10px;
+		padding: 5px;
+		top: -3px;
+		right: 1px;
+	}
+}
+
+/* Styles, not sizes */
+
+.shoppingCart {
+	position: relative;
+}
+
+.scIcon {
+	position: relative;
+}
+
+.productCounter {
+	color: #fff;
+	font-family: sans-serif;
+	position: absolute;
+}

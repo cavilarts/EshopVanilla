@@ -1,0 +1,53 @@
+/* Mobile */
+
+@media (max-width: 480px) {
+	.modalContent {
+		margin: 100px auto;
+		width: 85%;
+	}
+}
+/* Tablet */
+
+@media (min-width: 481px) and (max-width: 959px) {
+	/**/
+}
+/* Desktop */
+
+@media (min-width: 960px) {
+	/**/
+}
+
+/* Styles not sizes */
+
+.modalBackground {
+	position: fixed;
+	margin: none;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(64, 64, 64, 0.5);
+	z-index: 888;
+	opacity: 0;
+	transition: opacity 0.5s ease-in;
+	pointer-events: none;
+}
+
+.modalBackground:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalContent {
+	color: auto; /* delete later */
+	position: relative;
+	margin: 100px auto;
+	padding: 0;
+	border: 5px solid #4F4F4F;
+	background: #fff;
+}
+
+.closeModal {
+	color: #fff;
+	position: absolute;
+}
