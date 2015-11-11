@@ -29,10 +29,10 @@
         $sliderImages.style.left = (windowWidth * (index * (-1))) + "px";
         
         for (i = 0; i < cantButtons; i++) {
-            sliderButtons[i].classList.remove('active');  
+            sliderButtons[i].classList.remove('sliderActive');  
         }
 
-        sliderButtons[index].classList.toggle('active');
+        sliderButtons[index].classList.toggle('sliderActive');
     }
 
     /* THIS IS THE FINAL VERSION */
@@ -42,7 +42,9 @@
     function resize() {
         var windowWidth = window.innerWidth,
             $sliderImages = document.getElementsByClassName('sliderImages')[0],
-            $sliderList = document.getElementsByClassName('sliderList');
+            $sliderList = document.getElementsByClassName('sliderList'),
+            sliderButtons = document.getElementsByClassName('sliderButton'),
+            button;
 
         for (i = 0; i < $sliderList.length; i++) {
             $sliderList[i].style.width = windowWidth.toString() + "px";
@@ -50,24 +52,19 @@
         }
 
         $sliderImages.style.width = (windowWidth * $sliderList.length) + "px";
-        console.log($sliderImages.style.left);
+        
+        /* lo que uiqero hacer es recorrer todos los elementos de los botones del slider, y de acuerdo al indice en el que se encuentre el boton con clase "sliderActive", se se aplica el estilo del slider images de acuerdo al siguiente indice (esto solo es una gúia): <$sliderImages.style.left = (windowWidth * (index * (-1))) + "px";>
 
-    }
-
-    /* THIS IS TEST */
-
-    /*  window.onresize = function() {
-     $sliderImages = document.getElementsByClassName('sliderImages')[0],
-windowWidth = window.innerWidth,
-howManyChildren = $sliderImages.children.length,
-$sliderList = document.getElementsByClassName('sliderList');
-
-        for (i = 0; i < howManyChildren; i++) {
-            $sliderList[i].style.width = windowWidth + "px";
+        Y por esa razón propongo este ciclo::::::
+        for (i = 0; i < sliderButtons.length; i++) {
+            if (sliderButtons[i].className === "sliderActive") {
+                console.log(i);
+            }
         }
 
-        $sliderImages.style.width = (windowWidth * howManyChildren) + 'px';
-    } */
+        aun asi esto no estodo :/ */
+
+    }
 
     sliderWidth();
     slideAction();
