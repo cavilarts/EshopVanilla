@@ -30,7 +30,7 @@
 
             <div class="shoppingCart">
                 <a href="#openModal" title="Open Shopping Cart">
-                    <img alt="Shoppping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
+                    <img alt="Shopping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
                     <div class="productCounter">0</div>
                 </a>
 
@@ -101,12 +101,28 @@
             </section>
         </div>
 
-        <!-- Modal boxes -->
+        <!-- 
+            :::MODAL BOXES:::
+        -->
+
+        <!-- Shopping cart -->
 
         <div id="openModal" class="modalBackground">
             <div class="modalContent">
-                <a href="#closeModal" title="Close" class="closeModal">X</a>
-                <h2>Shopping cart</h2>
+                <div class="modalImage">
+                    <a href="#closeModal" title="Close" class="closeModal">X</a>
+                    <img alt="Candy shop">
+                </div>
+                
+                <header class="check-buy">
+                    <div class="checkout">
+                        <img alt="Shopping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
+                        <div class="productCounter">0</div>
+                        <div class="checkText">Checkout</div>
+                    </div>
+
+                    <img class="buy" src="static/images/icons/buy.png">
+                </header>
             </div>
         </div>
     </body>

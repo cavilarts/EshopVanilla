@@ -5,46 +5,61 @@
 		display: none;
 	}
 
-	.scIcon {
-		height: auto;
+	.shoppingCart .scIcon {
 		width: 35px;
 	}
 
-	.productCounter {
+	.shoppingCart .productCounter {
 		font-size: 10px;
 		padding: 5px;
 		top: -3px;
 		right: 64px;
+	}
+
+	/* Modal box */
+
+	.modalImage img {
+		content: url('../images/sc-header-img-mobile.jpg');
 	}
 }
 /* Tablet */
 
 @media (min-width: 481px) and (max-width: 959px) {
-	.scIcon {
-		height: auto;
+	.shoppingCart .scIcon {
 		width: 35px;
 	}
 
-	.productCounter {
+	.shoppingCart .productCounter {
 		font-size: 10px;
 		padding: 5px;
 		top: -3px;
 		right: 64px;
 	}
+
+	/* Modal box */
+
+	.modalImage img {
+		content: url('../images/sc-header-img-tablet.jpg');
+	}
 }
 /* Desktop */
 
 @media (min-width: 960px) {
-	.scIcon {
-		height: auto;
+	.shoppingCart .scIcon {
 		width: 40px;
 	}
 
-	.productCounter {
+	.shoppingCart .productCounter {
 		font-size: 10px;
 		padding: 5px;
 		top: -3px;
 		right: 1px;
+	}
+
+	/* Modal box */
+
+	.modalImage img {
+		content: url('../images/sc-header-img-desktop.jpg');
 	}
 }
 
@@ -54,7 +69,8 @@
 	position: relative;
 }
 
-.scIcon {
+.shoppingCart .scIcon {
+	height: auto;
 	position: relative;
 }
 
@@ -62,4 +78,60 @@
 	color: #fff;
 	font-family: sans-serif;
 	position: absolute;
+}
+
+/* Modal box */
+
+.modalImage {
+	position: relative;
+}
+
+.modalImage img {
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+
+header.check-buy {
+	background-color: #F4F4F4;
+	display: inline-block;
+	margin-top: -4px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.checkout {
+	display: inline-block;
+	float: left;
+}
+
+.checkout .scIcon {
+	margin-left: 15px;
+	width: 30px;
+}
+
+.checkout .productCounter {
+	position: absolute;
+	font-size: 10px;
+	top: 1px;
+	left: 35.5px;
+}
+
+.checkText {
+	background-color: #414141;
+	color: #fff;
+	display: inline-block;
+	font-family: "Arial";
+	text-shadow: 1px 1px 1px #000;
+	font-size: 1.25em;
+	margin: 0px 0px 0px 5px;
+	padding: 5px;
+}
+
+.buy {
+	float: right;
+	height: 45px;
+	width: auto;
+	position: relative;
 }

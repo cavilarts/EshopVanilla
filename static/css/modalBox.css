@@ -2,19 +2,25 @@
 
 @media (max-width: 480px) {
 	.modalContent {
-		margin: 100px auto;
+		margin: 50px auto;
 		width: 85%;
 	}
 }
 /* Tablet */
 
 @media (min-width: 481px) and (max-width: 959px) {
-	/**/
+	.modalContent {
+		margin: 75px auto;
+		width: 80%;
+	}
 }
 /* Desktop */
 
 @media (min-width: 960px) {
-	/**/
+	.modalContent {
+		margin: 50px auto;
+		width: 75%;
+	}
 }
 
 /* Styles not sizes */
@@ -39,15 +45,16 @@
 }
 
 .modalContent {
-	color: auto; /* delete later */
-	position: relative;
-	margin: 100px auto;
-	padding: 0;
-	border: 5px solid #4F4F4F;
 	background: #fff;
+	border: 5px solid #4F4F4F;
+	padding: 0;
+	position: relative;
 }
 
 .closeModal {
 	color: #fff;
 	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
 }
