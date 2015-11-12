@@ -66,18 +66,17 @@
 		margin-top: 20px;
 	}
 
-	.concept-price, .cp-hr {
-		margin-left: 60%;
+	.total {
+		min-height: 80px;
 	}
 
-	.concept-price {
+	.concept-price, .cp-hr {
+		margin-left: 50%;
 		margin-right: 5%;
 	}
 
 	.cp-hr {
 		clear: both;
-		margin-left: 59%;
-		margin-right: 2%;
 	}
 }
 /* Desktop */
@@ -106,9 +105,14 @@
 	}
 
 	.total {
-		min-height: 75px;
+		min-height: 80px;
 	}
 
+	.concept-price, .cp-hr {
+		margin-left: 50%;
+		margin-right: 2.5%;
+	}
+	
 	.cp-hr {
 		clear: both;
 	}
@@ -158,6 +162,7 @@ header.check-buy {
 }
 
 .checkout .scIcon {
+	margin-top: 10px;
 	margin-left: 15px;
 	width: 30px;
 }
@@ -165,7 +170,7 @@ header.check-buy {
 .checkout .productCounter {
 	position: absolute;
 	font-size: 10px;
-	top: 1px;
+	top: 10px;
 	left: 35.5px;
 }
 
@@ -191,6 +196,18 @@ header.check-buy {
 	width: 100%;
 }
 
+.productsInCart {
+	margin: 10px auto;
+	width: 90%;
+	min-height: 30px;
+}
+
+.productsInCart p {
+	color: #888;
+	padding: 20px;
+	text-align: center;
+}
+
 .sc-hr .cp-hr {
 	background-color: #B9B9B9;
 	color: #B9B9B9;	
@@ -201,6 +218,9 @@ header.check-buy {
 	display: block;
 	font-size: 20px;
 	font-family: "Arial";
+	height: auto;
+	position: relative;
+	width: 100%;
 }
 
 .concept-price {
@@ -209,6 +229,7 @@ header.check-buy {
 }
 
 .concept-price .concept {
+	font-weight: bold;
 	display: inline-block;
 	float: left;
 }

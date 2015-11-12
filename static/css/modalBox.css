@@ -1,60 +1,60 @@
 /* Mobile */
 
 @media (max-width: 480px) {
-	.modalContent {
-		width: 85%;
-	}
+    .modalContent {
+        width: 85%;
+    }
 }
 /* Tablet */
 
 @media (min-width: 481px) and (max-width: 959px) {
-	.modalContent {
-		width: 80%;
-	}
+    .modalContent {
+        width: 80%;
+    }
 }
 /* Desktop */
 
 @media (min-width: 960px) {
-	.modalContent {
-		width: 75%;
-	}
+    .modalContent {
+        width: 75%;
+    }
 }
 
 /* Styles not sizes */
 
 .modalBackground {
-	position: fixed;
-	margin: none;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(64, 64, 64, 0.5);
-	z-index: 888;
-	opacity: 0;
-	transition: opacity 0.5s ease-in;
-	pointer-events: none;
+    position: fixed;
+    margin: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(64, 64, 64, 0.5);
+    z-index: 888;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    pointer-events: none;
 }
 
 .modalBackground:target {
-	opacity: 1;
-	pointer-events: auto;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .modalContent {
-	background: #fff;
-	border: 5px solid #4F4F4F;
-	margin: 25px auto;
-	padding: 0;
-	position: relative;
+    background: #fff;
+    border: 5px solid #4F4F4F;
+    margin: 25px auto;
+    padding: 0;
+    position: relative;
 }
 
 .closeModal {
-	color: #fff;
-	font-size: 25px;
-	font-weight: bolder;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	z-index: 1;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
 }
