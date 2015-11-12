@@ -6,13 +6,11 @@
         $sliderList = document.getElementsByClassName('sliderList');
         
     function sliderWidth() {
-        var howManyChildren = $sliderImages.children.length;
-
         for (i = 0; i < $sliderList.length; i++) {
             $sliderList[i].style.width = windowWidth + "px"; 
          }
  
-         $sliderImages.style.width = windowWidth * howManyChildren + "px";
+         $sliderImages.style.width = windowWidth * $sliderList.length + "px";
      }
 
     function slideAction() {
@@ -35,8 +33,6 @@
         sliderButtons[index].classList.toggle('sliderActive');
     }
 
-    /* THIS IS THE FINAL VERSION */
-
     window.onresize = resize;
 
     function resize() {
@@ -52,18 +48,6 @@
         }
 
         $sliderImages.style.width = (windowWidth * $sliderList.length) + "px";
-        
-        /* lo que uiqero hacer es recorrer todos los elementos de los botones del slider, y de acuerdo al indice en el que se encuentre el boton con clase "sliderActive", se se aplica el estilo del slider images de acuerdo al siguiente indice (esto solo es una gúia): <$sliderImages.style.left = (windowWidth * (index * (-1))) + "px";>
-
-        Y por esa razón propongo este ciclo::::::
-        for (i = 0; i < sliderButtons.length; i++) {
-            if (sliderButtons[i].className === "sliderActive") {
-                console.log(i);
-            }
-        }
-
-        aun asi esto no estodo :/ */
-
     }
 
     sliderWidth();
