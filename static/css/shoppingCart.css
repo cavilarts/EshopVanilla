@@ -21,6 +21,25 @@
 	.modalImage img {
 		content: url('../images/sc-header-img-mobile.jpg');
 	}
+
+	.total {
+		margin-top: 20px;
+		min-height: 80px;
+	}
+
+	.sc-hr {
+		display: none;
+	}
+
+	.concept-price {
+		margin: 0px 10px 0px 10px;
+	}
+
+	.cp-hr {
+		clear: both;
+		display: block;
+		position: relative;
+	}
 }
 /* Tablet */
 
@@ -41,6 +60,25 @@
 	.modalImage img {
 		content: url('../images/sc-header-img-tablet.jpg');
 	}
+
+	.sc-hr {
+		clear: both;
+		margin-top: 20px;
+	}
+
+	.concept-price, .cp-hr {
+		margin-left: 60%;
+	}
+
+	.concept-price {
+		margin-right: 5%;
+	}
+
+	.cp-hr {
+		clear: both;
+		margin-left: 59%;
+		margin-right: 2%;
+	}
 }
 /* Desktop */
 
@@ -60,6 +98,19 @@
 
 	.modalImage img {
 		content: url('../images/sc-header-img-desktop.jpg');
+	}
+
+	.sc-hr {
+		clear: both;
+		margin-top: 20px;
+	}
+
+	.total {
+		min-height: 75px;
+	}
+
+	.cp-hr {
+		clear: both;
 	}
 }
 
@@ -134,4 +185,35 @@ header.check-buy {
 	height: 45px;
 	width: auto;
 	position: relative;
+}
+
+.productsInCart, .total {
+	width: 100%;
+}
+
+.sc-hr .cp-hr {
+	background-color: #B9B9B9;
+	color: #B9B9B9;	
+}
+
+.total {
+	color: #4F4F4F;
+	display: block;
+	font-size: 20px;
+	font-family: "Arial";
+}
+
+.concept-price {
+	clear: both;
+	position: relative;
+}
+
+.concept-price .concept {
+	display: inline-block;
+	float: left;
+}
+
+.concept-price .price {
+	display: inline-block;
+	float: right;
 }

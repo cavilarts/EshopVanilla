@@ -2,7 +2,6 @@
 
 @media (max-width: 480px) {
 	.modalContent {
-		margin: 50px auto;
 		width: 85%;
 	}
 }
@@ -10,7 +9,6 @@
 
 @media (min-width: 481px) and (max-width: 959px) {
 	.modalContent {
-		margin: 75px auto;
 		width: 80%;
 	}
 }
@@ -18,7 +16,6 @@
 
 @media (min-width: 960px) {
 	.modalContent {
-		margin: 50px auto;
 		width: 75%;
 	}
 }
@@ -47,12 +44,15 @@
 .modalContent {
 	background: #fff;
 	border: 5px solid #4F4F4F;
+	margin: 25px auto;
 	padding: 0;
 	position: relative;
 }
 
 .closeModal {
 	color: #fff;
+	font-size: 25px;
+	font-weight: bolder;
 	position: absolute;
 	top: 10px;
 	right: 10px;
