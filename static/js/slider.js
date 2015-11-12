@@ -10,10 +10,10 @@
 
         for (i = 0; i < $sliderList.length; i++) {
             $sliderList[i].style.width = windowWidth + "px"; 
-         }
- 
-         $sliderImages.style.width = windowWidth * howManyChildren + "px";
-     }
+        }
+
+        $sliderImages.style.width = windowWidth * howManyChildren + "px";
+    }
 
     function slideAction() {
         var button;
@@ -34,9 +34,7 @@
 
         sliderButtons[index].classList.toggle('sliderActive');
     }
-
-    /* THIS IS THE FINAL VERSION */
-
+    
     window.onresize = resize;
 
     function resize() {

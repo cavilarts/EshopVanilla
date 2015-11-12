@@ -1,240 +1,240 @@
 /* Mobile */
 
 @media (max-width: 480px) {
-	.headerCategories {
-		display: none;
-	}
+    .headerCategories {
+        display: none;
+    }
 
-	.shoppingCart .scIcon {
-		width: 35px;
-	}
+    .shoppingCart .scIcon {
+        width: 35px;
+    }
 
-	.shoppingCart .productCounter {
-		font-size: 10px;
-		padding: 5px;
-		top: -3px;
-		right: 64px;
-	}
+    .shoppingCart .productCounter {
+        font-size: 10px;
+        padding: 5px;
+        top: -3px;
+        right: 64px;
+    }
 
-	/* Modal box */
+    /* Modal box */
 
-	.modalImage img {
-		content: url('../images/sc-header-img-mobile.jpg');
-	}
+    .modalImage img {
+        content: url('../images/sc-header-img-mobile.jpg');
+    }
 
-	.total {
-		margin-top: 20px;
-		min-height: 80px;
-	}
+    .total {
+        margin-top: 20px;
+        min-height: 80px;
+    }
 
-	.sc-hr {
-		display: none;
-	}
+    .sc-hr {
+        display: none;
+    }
 
-	.concept-price {
-		margin: 0px 10px 0px 10px;
-	}
+    .concept-price {
+        margin: 0px 10px 0px 10px;
+    }
 
-	.cp-hr {
-		clear: both;
-		display: block;
-		position: relative;
-	}
+    .cp-hr {
+        clear: both;
+        display: block;
+        position: relative;
+    }
 }
 /* Tablet */
 
 @media (min-width: 481px) and (max-width: 959px) {
-	.shoppingCart .scIcon {
-		width: 35px;
-	}
+    .shoppingCart .scIcon {
+        width: 35px;
+    }
 
-	.shoppingCart .productCounter {
-		font-size: 10px;
-		padding: 5px;
-		top: -3px;
-		right: 64px;
-	}
+    .shoppingCart .productCounter {
+        font-size: 10px;
+        padding: 5px;
+        top: -3px;
+        right: 64px;
+    }
 
-	/* Modal box */
+    /* Modal box */
 
-	.modalImage img {
-		content: url('../images/sc-header-img-tablet.jpg');
-	}
+    .modalImage img {
+        content: url('../images/sc-header-img-tablet.jpg');
+    }
 
-	.sc-hr {
-		clear: both;
-		margin-top: 20px;
-	}
+    .sc-hr {
+        clear: both;
+        margin-top: 20px;
+    }
 
-	.total {
-		min-height: 80px;
-	}
+    .total {
+        min-height: 80px;
+    }
 
-	.concept-price, .cp-hr {
-		margin-left: 50%;
-		margin-right: 5%;
-	}
+    .concept-price, .cp-hr {
+        margin-left: 50%;
+        margin-right: 5%;
+    }
 
-	.cp-hr {
-		clear: both;
-	}
+    .cp-hr {
+        clear: both;
+    }
 }
 /* Desktop */
 
 @media (min-width: 960px) {
-	.shoppingCart .scIcon {
-		width: 40px;
-	}
+    .shoppingCart .scIcon {
+        width: 40px;
+    }
 
-	.shoppingCart .productCounter {
-		font-size: 10px;
-		padding: 5px;
-		top: -3px;
-		right: 1px;
-	}
+    .shoppingCart .productCounter {
+        font-size: 10px;
+        padding: 5px;
+        top: -3px;
+        right: 1px;
+    }
 
-	/* Modal box */
+    /* Modal box */
 
-	.modalImage img {
-		content: url('../images/sc-header-img-desktop.jpg');
-	}
+    .modalImage img {
+        content: url('../images/sc-header-img-desktop.jpg');
+    }
 
-	.sc-hr {
-		clear: both;
-		margin-top: 20px;
-	}
+    .sc-hr {
+        clear: both;
+        margin-top: 20px;
+    }
 
-	.total {
-		min-height: 80px;
-	}
+    .total {
+        min-height: 80px;
+    }
 
-	.concept-price, .cp-hr {
-		margin-left: 50%;
-		margin-right: 2.5%;
-	}
-	
-	.cp-hr {
-		clear: both;
-	}
+    .concept-price, .cp-hr {
+        margin-left: 50%;
+        margin-right: 2.5%;
+    }
+    
+    .cp-hr {
+        clear: both;
+    }
 }
 
 /* Styles, not sizes */
 
 .shoppingCart {
-	position: relative;
+    position: relative;
 }
 
 .shoppingCart .scIcon {
-	height: auto;
-	position: relative;
+    height: auto;
+    position: relative;
 }
 
 .productCounter {
-	color: #fff;
-	font-family: sans-serif;
-	position: absolute;
+    color: #fff;
+    font-family: sans-serif;
+    position: absolute;
 }
 
 /* Modal box */
 
 .modalImage {
-	position: relative;
+    position: relative;
 }
 
 .modalImage img {
-	height: auto;
-	position: relative;
-	width: 100%;
+    height: auto;
+    position: relative;
+    width: 100%;
 }
 
 header.check-buy {
-	background-color: #F4F4F4;
-	display: inline-block;
-	margin-top: -4px;
-	padding: 0;
-	position: relative;
-	width: 100%;
+    background-color: #F4F4F4;
+    display: inline-block;
+    margin-top: -4px;
+    padding: 0;
+    position: relative;
+    width: 100%;
 }
 
 .checkout {
-	display: inline-block;
-	float: left;
+    display: inline-block;
+    float: left;
 }
 
 .checkout .scIcon {
-	margin-top: 10px;
-	margin-left: 15px;
-	width: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 30px;
 }
 
 .checkout .productCounter {
-	position: absolute;
-	font-size: 10px;
-	top: 10px;
-	left: 35.5px;
+    position: absolute;
+    font-size: 10px;
+    top: 10px;
+    left: 35.5px;
 }
 
 .checkText {
-	background-color: #414141;
-	color: #fff;
-	display: inline-block;
-	font-family: "Arial";
-	text-shadow: 1px 1px 1px #000;
-	font-size: 1.25em;
-	margin: 0px 0px 0px 5px;
-	padding: 5px;
+    background-color: #414141;
+    color: #fff;
+    display: inline-block;
+    font-family: "Arial";
+    text-shadow: 1px 1px 1px #000;
+    font-size: 1.25em;
+    margin: 0px 0px 0px 5px;
+    padding: 5px;
 }
 
 .buy {
-	float: right;
-	height: 45px;
-	width: auto;
-	position: relative;
+    float: right;
+    height: 45px;
+    width: auto;
+    position: relative;
 }
 
 .productsInCart, .total {
-	width: 100%;
+    width: 100%;
 }
 
 .productsInCart {
-	margin: 10px auto;
-	width: 90%;
-	min-height: 30px;
+    margin: 10px auto;
+    width: 90%;
+    min-height: 30px;
 }
 
 .productsInCart p {
-	color: #888;
-	padding: 20px;
-	text-align: center;
+    color: #888;
+    padding: 20px;
+    text-align: center;
 }
 
 .sc-hr .cp-hr {
-	background-color: #B9B9B9;
-	color: #B9B9B9;	
+    background-color: #B9B9B9;
+    color: #B9B9B9;    
 }
 
 .total {
-	color: #4F4F4F;
-	display: block;
-	font-size: 20px;
-	font-family: "Arial";
-	height: auto;
-	position: relative;
-	width: 100%;
+    color: #4F4F4F;
+    display: block;
+    font-size: 20px;
+    font-family: "Arial";
+    height: auto;
+    position: relative;
+    width: 100%;
 }
 
 .concept-price {
-	clear: both;
-	position: relative;
+    clear: both;
+    position: relative;
 }
 
 .concept-price .concept {
-	font-weight: bold;
-	display: inline-block;
-	float: left;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
 }
 
 .concept-price .price {
-	display: inline-block;
-	float: right;
+    display: inline-block;
+    float: right;
 }
