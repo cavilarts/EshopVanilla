@@ -50,9 +50,11 @@
 }
 
 .closeModal {
+    background-color: #414141;
     color: #fff;
     font-size: 25px;
     font-weight: bolder;
+    padding: 5px;
     position: absolute;
     top: 10px;
     right: 10px;
