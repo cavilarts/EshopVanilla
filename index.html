@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="static/css/headerBar.css">
         <link rel="stylesheet" type="text/css" href="static/css/index.css">
         <link rel="stylesheet" type="text/css" href="static/css/modalBox.css">
+        <link rel="stylesheet" type="text/css" href="static/css/productDetails.css">
         <link rel="stylesheet" type="text/css" href="static/css/products.css">
         <link rel="stylesheet" type="text/css" href="static/css/shoppingCart.css">
         <link rel="stylesheet" type="text/css" href="static/css/slider.css">
@@ -18,26 +19,26 @@
 
     <body>
         <header class="headerBar">
-        <div class="shopName">
-            <img class="shopIcon" src="static/images/icons/favicon.png">
-            Prodigious Store Challenge3
-        </div>
-
-        <div class="catCart">
-            <div class="headerCategories">
-                <!-- Coming soon -->
+            <div class="shopName">
+                <img class="shopIcon" src="static/images/icons/favicon.png">
+                Prodigious Store Challenge3
             </div>
 
-            <div class="shoppingCart">
-                <a href="#openShopCartModal" title="Open Shopping Cart">
-                    <img alt="Shopping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
-                    <div class="productCounter">0</div>
-                </a>
+            <div class="catCart">
+                <div class="headerCategories">
+                    <!-- Coming soon -->
+                </div>
 
-                <img alt="Pull-down menu" class="headerPull-downMenu" src="static/images/icons/pull-down.png">
+                <div class="shoppingCart">
+                    <a href="#openShopCartModal" title="Open Shopping Cart">
+                        <img alt="Shopping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
+                        <div class="productCounter">0</div>
+                    </a>
+
+                    <img alt="Pull-down menu" class="headerPull-downMenu" src="static/images/icons/pull-down.png">
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
 
         <div class="slider">
             <ul class="sliderImages">
@@ -71,31 +72,31 @@
                 <div class="productCard">
                     <div class="productDescription">Comfortable fresh in your mouth</div>
                     <div class="productName">MINT GUM</div>
-                    <div class="productDetails"></div>
+                    <a href="#viewProduct1" title="Product details"><div class="productDetails"></div></a>
                     <div class="addCart"></div>
                 </div>
                 <div class="productCard">
                     <div class="productDescription">The most cute and delicious bears</div>
                     <div class="productName">CHOCOLATE BEAR</div>
-                    <div class="productDetails"><p></p></div>
+                    <a href="#viewProduct2" title="Product details"><div class="productDetails"></div></a>
                     <div class="addCart"></div>
                 </div>
                 <div class="productCard">
                     <div class="productDescription">Chew this is a hard work</div>
                     <div class="productName">JAW BREAKERS</div>
-                    <div class="productDetails"></div>
+                    <a href="#viewProduct3" title="Product details"><div class="productDetails"></div></a>
                     <div class="addCart"></div>
                 </div>
                 <div class="productCard">
                     <div class="productDescription">A colorful delight</div>
                     <div class="productName">RAINBOW LOLLIPOP</div>
-                    <div class="productDetails"></div>
+                    <a href="#viewProduct4" title="Product details"><div class="productDetails"></div></a>
                     <div class="addCart"></div>
                 </div>
                 <div class="productCard">
                     <div class="productDescription">Acidly delicious</div>
                     <div class="productName">GUMONADE</div>
-                    <div class="productDetails"></div>
+                    <a href="#viewProduct5" title="Product details"><div class="productDetails"></div></a>
                     <div class="addCart"></div>
                 </div>
             </section>
@@ -105,9 +106,10 @@
 
         <div id="openShopCartModal" class="modalBackground">
             <div class="modalContent">
+                <a href="#closeModal" title="Close" class="closeModal">✕</a>
+
                 <div class="modalImage">
-                    <a href="#closeModal" title="Close" class="closeModal">✕</a>
-                    <img alt="Candy shop">
+                    <img alt="Candy shop" class="shopCartHeaderImage">
                 </div>
                 
                 <header class="check-buy">
@@ -146,6 +148,213 @@
                         <div class="price">$ 0</div>
                     </div>
                 </section>
+            </div>
+        </div>
+
+        <!-- Product details -->
+
+        <div id="viewProduct1" class="modalBackground">
+            <div class="modalContent productNumber1">
+                <a href="#closeModal" title="Close" class="closeModal">✕</a>
+
+                <!-- <div class="productSlider">
+                    <ul class="productSlider">
+                        <li class="productSList"><img alt="Image 1" class="productSliderImg1" src="static/images/gum/mint/product-detail-slider/1-desktop.jpg"></li>
+                        <li class="productSList"><img alt="Image 2" class="productSliderImg1"></li>
+                        <li class="productSList"><img alt="Image 3" class="productSliderImg1"></li>
+                    </ul>
+
+                    <ul class="sliderButtons">
+                        <li class="sliderButton sliderActive"></li>
+                        <li class="sliderButton"></li>
+                        <li class="sliderButton"></li>
+                    </ul>
+                </div> -->
+
+                <img alt="">
+
+                <div class="productDesc">
+                    <div class="1stColumn">
+                        <h2>Name</h2>
+
+                        <p>Paragraph</p>
+
+                        <ul>
+                            <li>1 item</li>
+                            <li>2 items</li>
+                        </ul>
+                    </div>
+
+                    <div class="2ndColumn">
+                        <p>Paragraph</p>
+
+                        <p>Optional paragraph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="viewProduct2" class="modalBackground">
+            <div class="modalContent productNumber2">
+                <a href="#closeModal" title="Close" class="closeModal">✕</a>
+
+                <!-- <div class="productSlider">
+                    <ul class="productSlider">
+                        <li class="productSList"><img alt="Image 1" class="productSliderImg2" src="static/images/choco/bear/product-detail-slider/1-desktop.jpg"></li>
+                        <li class="productSList"><img alt="Image 2" class="productSliderImg2"></li>
+                        <li class="productSList"><img alt="Image 3" class="productSliderImg2"></li>
+                    </ul>
+
+                    <ul class="sliderButtons">
+                        <li class="sliderButton sliderActive"></li>
+                        <li class="sliderButton"></li>
+                        <li class="sliderButton"></li>
+                    </ul>
+                </div> -->
+
+                <img alt="">
+
+                <div class="productDesc">
+                    <div class="1stColumn">
+                        <h2>Name</h2>
+
+                        <p>Paragraph</p>
+
+                        <ul>
+                            <li>1 item</li>
+                            <li>2 items</li>
+                        </ul>
+                    </div>
+
+                    <div class="2ndColumn">
+                        <p>Paragraph</p>
+
+                        <p>Optional paragraph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="viewProduct3" class="modalBackground">
+            <div class="modalContent productNumber3">
+                <a href="#closeModal" title="Close" class="closeModal">✕</a>
+
+                <!-- <div class="productSlider">
+                    <ul class="productSlider">
+                        <li class="productSList"><img alt="Image 1" class="productSliderImg3" src="static/images/hard/jaw/product-detail-slider/1-desktop.jpg"></li>
+                        <li class="productSList"><img alt="Image 2" class="productSliderImg3"></li>
+                        <li class="productSList"><img alt="Image 3" class="productSliderImg3"></li>
+                    </ul>
+
+                    <ul class="sliderButtons">
+                        <li class="sliderButton sliderActive"></li>
+                        <li class="sliderButton"></li>
+                        <li class="sliderButton"></li>
+                    </ul>
+                </div> -->
+
+                <img alt="">
+
+                <div class="productDesc">
+                    <div class="1stColumn">
+                        <h2>Name</h2>
+
+                        <p>Paragraph</p>
+
+                        <ul>
+                            <li>1 item</li>
+                            <li>2 items</li>
+                        </ul>
+                    </div>
+
+                    <div class="2ndColumn">
+                        <p>Paragraph</p>
+
+                        <p>Optional paragraph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="viewProduct4" class="modalBackground">
+            <div class="modalContent productNumber4">
+                <a href="#closeModal" title="Close" class="closeModal">✕</a>
+
+                <!-- <div class="productSlider">
+                    <ul class="productSlider">
+                        <li class="productSList"><img alt="Image 1" class="productSliderImg4" src="static/images/hard/rainbow/product-detail-slider/1-desktop.jpg"></li>
+                        <li class="productSList"><img alt="Image 2" class="productSliderImg4"></li>
+                        <li class="productSList"><img alt="Image 3" class="productSliderImg4"></li>
+                    </ul>
+
+                    <ul class="sliderButtons">
+                        <li class="sliderButton sliderActive"></li>
+                        <li class="sliderButton"></li>
+                        <li class="sliderButton"></li>
+                    </ul>
+                </div> -->
+
+                <img alt="">
+
+                <div class="productDesc">
+                    <div class="1stColumn">
+                        <h2>Name</h2>
+
+                        <p>Paragraph</p>
+
+                        <ul>
+                            <li>1 item</li>
+                            <li>2 items</li>
+                        </ul>
+                    </div>
+
+                    <div class="2ndColumn">
+                        <p>Paragraph</p>
+
+                        <p>Optional paragraph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="viewProduct5" class="modalBackground">
+            <div class="modalContent productNumber5">
+                <a href="#closeModal" title="Close" class="closeModal">✕</a>
+
+                <!-- <div class="productSlider">
+                    <ul class="productSlider">
+                        <li class="productSList"><img alt="Image 1" class="productSliderImg5" src="static/images/gum/gumonade/product-detail-slider/1-desktop.jpg"></li>
+                        <li class="productSList"><img alt="Image 2" class="productSliderImg5"></li>
+                        <li class="productSList"><img alt="Image 3" class="productSliderImg5"></li>
+                    </ul>
+
+                    <ul class="sliderButtons">
+                        <li class="sliderButton sliderActive"></li>
+                        <li class="sliderButton"></li>
+                        <li class="sliderButton"></li>
+                    </ul>
+                </div> -->
+
+                <img alt="">
+
+                <div class="productDesc">
+                    <div class="1stColumn">
+                        <h2>Name</h2>
+
+                        <p>Paragraph</p>
+
+                        <ul>
+                            <li>1 item</li>
+                            <li>2 items</li>
+                        </ul>
+                    </div>
+
+                    <div class="2ndColumn">
+                        <p>Paragraph</p>
+
+                        <p>Optional paragraph</p>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

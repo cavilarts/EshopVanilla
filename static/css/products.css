@@ -151,9 +151,13 @@
     width: 30px;
 }
 
+.productCard a {
+    margin-left: 220px;
+    position: absolute;
+}
+
 .productDetails {
     background: url('../images/icons/details.png');
-    margin-left: 220px;
 }
 
 .productDetails:hover {
