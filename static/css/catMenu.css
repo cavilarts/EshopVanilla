@@ -1,0 +1,45 @@
+/*  Mobile: */
+
+@media (max-width: 480px) {
+	.modalHeaderMenu {
+		margin-top: 100px;
+	}
+
+	.closeHeaderMenu {
+		font-size: 50px;
+	}
+}
+/*  Tablet: */
+
+@media (min-width: 481px) and (max-width: 959px) {
+	.modalHeaderMenu {
+		margin-top: 75px;
+	}
+}
+/* Desktop: */
+
+@media (min-width: 960px) {
+	.modalHeaderMenu {
+		display: none;
+	}
+
+	.closeHeaderMenu {
+		display: none;
+	}
+}
+
+/* Styles, not sizes */
+
+.modalHeaderMenu {
+	background: #fff;
+    border-top: 1px solid #4F4F4F;
+    padding: 0;
+    position: relative;
+}
+
+.closeHeaderMenu {
+	background-color: #fff;
+	color: #505050;
+	font-weight: bold;
+	position: absolute;
+}

@@ -1,0 +1,48 @@
+/* Mobile */
+
+@media (max-width: 480px) {
+	header.breadcrums {
+		display: inline-block;
+	}
+
+	header.count-bread {
+		display: none;
+	}
+
+	footer.count-filter {
+		display: inline;
+	}
+}
+
+/* Tablet */
+
+@media (min-width: 481px) and (max-width: 959px) {
+	header.breadcrums {
+		display: inline-block;
+	}
+
+	header.count-bread {
+		display: none;
+	}
+
+	footer.count-filter {
+		display: inline;
+	}
+}
+/* Desktop */
+
+@media (min-width: 960px) {
+	header.breadcrums {
+		display: none;
+	}
+
+	header.count-bread {
+		display: inline-block;
+	}
+
+	footer.count-filter {
+		display: none;
+	}
+}
+
+/* Styles not sizes */

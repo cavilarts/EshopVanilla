@@ -3,7 +3,6 @@
 @media (max-width: 480px) {
     .wrapper {
     	max-width: 480px;
-    	margin-top: 350px;
     }
 
     .productList {

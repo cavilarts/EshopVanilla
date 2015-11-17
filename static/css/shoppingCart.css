@@ -5,10 +5,6 @@
         margin-top: 25px;
     }
 
-    .headerCategories {
-        display: none;
-    }
-
     .shoppingCart .scIcon {
         width: 50px;
     }
@@ -126,6 +122,7 @@
 
 .shoppingCart {
     position: relative;
+    display: inline-block;
 }
 
 .shoppingCart .scIcon {

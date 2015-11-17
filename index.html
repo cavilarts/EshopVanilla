@@ -5,6 +5,7 @@
         <link rel="icon" type="image/png" href="static/images/icons/favicon.png">
         
         <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="static/css/catMenu.css">
         <link rel="stylesheet" type="text/css" href="static/css/footer.css">
         <link rel="stylesheet" type="text/css" href="static/css/headerBar.css">
         <link rel="stylesheet" type="text/css" href="static/css/index.css">
@@ -32,9 +33,12 @@
             </div>
 
             <div class="catCart">
-                <div class="headerCategories">
-                    <!-- Coming soon -->
-                </div>
+                <ul class="headerCategories">
+                    <li class="Categories">GUMS</li>
+                    <li class="Categories">CHOCOLATES</li>
+                    <li class="Categories">HARD CANDIES</li>
+                    <li class="Categories">OTHER</li>
+                </ul>
 
                 <div class="shoppingCart">
                     <a href="#openShopCartModal" title="Open Shopping Cart">
@@ -42,7 +46,7 @@
                         <div class="productCounter">0</div>
                     </a>
 
-                    <img alt="Pull-down menu" class="headerPull-downMenu" src="static/images/icons/pull-down.png">
+                    <a class="headerPull-downMenu" href="#openHeaderMenu"><img alt="Pull-down menu" class="headerPull-downMenu" src="static/images/icons/pull-down.png"></a>
                 </div>
             </div>
         </header>
@@ -76,7 +80,9 @@
         <script type="text/javascript" src="static/js/slider.js"></script>
 
         <div class="wrapper">
-            <aside class="filter"></aside>
+            <header class="breadcrums"></header>
+
+            <header class="count-bread"></header>
 
             <section class="productList">
                 <div class="productCard">
@@ -110,6 +116,8 @@
                     <div class="addCart"></div>
                 </div>
             </section>
+
+            <footer class="count-filter"></footer>
         </div>
 
         <!-- Shopping cart: you should tell me what is the apropriate position of this modal box -->
@@ -158,6 +166,15 @@
                         <div class="price">$ 0</div>
                     </div>
                 </section>
+            </div>
+        </div>
+
+        <!-- Header Menu -->
+
+        <div id="openHeaderMenu" class="modalBackground">
+            <div class="modalHeaderMenu">
+                <a href="#closeModal" title="Close" class="closeHeaderMenu">✕</a>
+                <p>Hola</p>
             </div>
         </div>
 
@@ -292,7 +309,7 @@
             </div>
         </div>
 
-        <footer>
+        <footer class="footer">
             <section class="socialMedia">
                 <ul>
                     <li class="socialLink"><a href="#"><img alt="Facebook" class="Facebook" src="static/images/social-media/fb.png"></a></li>
