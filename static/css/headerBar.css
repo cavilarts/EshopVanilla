@@ -11,19 +11,18 @@
 	.shopName {
 		margin-top: 25px;
 		margin-left: 15px;
-		font-size: 16px;
+		font-size: 25px;
 	}
 
 	.shopIcon {
-		height: 20px;
-		width: 20px;
+		width: 30px;
 	}
 
 	.headerPull-downMenu {
 		display: inline-block;
 		height: auto;
 		margin-left: 30px;
-		width: 30px;
+		width: 45px;
 	}
 
 	.catCart {

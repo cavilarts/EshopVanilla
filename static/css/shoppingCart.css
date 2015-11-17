@@ -10,14 +10,14 @@
     }
 
     .shoppingCart .scIcon {
-        width: 35px;
+        width: 50px;
     }
 
     .shoppingCart .productCounter {
         font-size: 10px;
         padding: 5px;
-        top: -3px;
-        right: 64px;
+        top: 0px;
+        right: 82px;
     }
 
     /* Modal box */

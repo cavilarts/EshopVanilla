@@ -105,8 +105,15 @@
         padding-left: 10px;
         padding-bottom: 20px;
         position: absolute;
-        left: 15px;
-        bottom: 15px;
+        left: 20px;
+    }
+
+    .sliderList .desc-one{
+        margin-top: -100px;
+    }
+
+    .sliderList .desc-two {
+        margin-top: -55px;
     }
 
     .sliderButtons {
@@ -163,6 +170,7 @@
         padding-right: 15px;
         padding-left: 15px;
         padding-bottom: 25px;
+        display: inline;
         left: 15px;
         bottom: 0px;
     }
@@ -215,6 +223,7 @@
 .slimgDesc {
     background-color: #fff;
     color: #414141;
+    position: absolute;
     font-family: "DIN Alternate Bold";
     z-index: 2;
 }
