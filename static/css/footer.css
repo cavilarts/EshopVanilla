@@ -1,0 +1,100 @@
+/*  Mobile: */
+
+@media (max-width: 480px) {
+    .footerMenu {
+    	display: block;
+    }
+
+    .footerMenu hr {
+    	border-bottom: 1px solid #707070;
+		border-top: 1px solid #3B3B3B;
+		clear: both;
+		margin-left: -15px;
+		margin-right: -15px;
+		position: relative;
+    }
+}
+
+/*  Tablet: */
+
+@media (min-width: 481px) and (max-width: 959px) {
+    .footerMenu hr {
+    	display: none;
+    }
+}
+
+/* Desktop: */
+
+@media (min-width: 960px) {
+    .footerMenu {
+    	display: inline-block;
+    }
+
+    .footerMenu hr {
+    	display: none;
+    }
+}
+
+/* Style not sizes */
+
+footer {
+	background-color: #4F4F4F;
+	clear: both;
+	color: #fff;
+	font-family: "Helvetica";
+	position: relative;
+	width: 100%;
+}
+
+.socialMedia {
+	display: inline-block;
+	float: right;
+	position: static;
+}
+
+.socialMedia ul {
+	list-style: none;
+	margin: 15px;
+}
+
+.socialLink {
+	display: inline;
+	padding: 5px;
+}
+
+.socialLink img {
+	height: 30px;
+	width: 30px;
+}
+
+.Facebook:hover {
+	content: url("../images/social-media/fb-hover.png");
+}
+
+.Twitter:hover {
+	content: url("../images/social-media/twitter-hover.png");
+}
+
+.LinkedIn:hover {
+	content: url("../images/social-media/linkedin-hover.png");
+}
+
+footer > hr {
+	border-bottom: 1px solid #707070;
+	border-top: 1px solid #3B3B3B;
+	clear: both;
+}
+
+.footerMenu {
+	margin: 7.5px;
+	padding: 7.5px;
+}
+
+.countries, .companyList {
+	cursor: pointer;
+	width: 120px;
+}
+
+.footerOptions {
+	line-height: 10px;
+}
