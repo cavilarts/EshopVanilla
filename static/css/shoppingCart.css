@@ -1,6 +1,10 @@
 /* Mobile */
 
 @media (max-width: 480px) {
+    .catCart {
+        margin-top: 25px;
+    }
+
     .headerCategories {
         display: none;
     }

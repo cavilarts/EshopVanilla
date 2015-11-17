@@ -3,13 +3,13 @@
 @media (max-width: 480px) {
 	.headerBar {
 		background-color: #fff;
-		height: 50px;
+		height: 100px;
 		position: absolute;
 		z-index: 2;
 	}
 
 	.shopName {
-		margin-top: 13px;
+		margin-top: 25px;
 		margin-left: 15px;
 		font-size: 16px;
 	}

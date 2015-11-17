@@ -2,6 +2,7 @@
 
 @media (max-width: 480px) {
     .slider {
+        margin-top: 100px;
         z-index: -3;
     }
 
@@ -25,6 +26,11 @@
         height: 75px;
     }
 
+    .sliderImages {
+        
+        position: relative;
+    }
+
     .sliderImage {
         height: 350px;
     }
@@ -46,7 +52,7 @@
     }
 
     .sliderButtons {
-        top: 250px;
+        top: 350px;
         right: 20px;
     }
 
@@ -72,6 +78,7 @@
     }
 
     .sliderImages {
+        position: absolute;
         z-index: -3;
     }
 
@@ -129,6 +136,10 @@
         margin-left: -5px;
     }
 
+    .sliderImages {
+        position: absolute;
+    }
+
     .sliderImage {
         height: 300px;
     }
@@ -175,15 +186,12 @@
 /* Styles not sizes */
 
 .slider {
-    margin-top: 0;
-    margin: 0;
     padding: 0;
 }
 
 .sliderImages {
     margin: 0;
     padding: 0;
-    position: absolute;
     left: 0;
     transition: all 0.75s ease-in;
 }
