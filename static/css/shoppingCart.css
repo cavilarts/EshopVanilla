@@ -229,6 +229,7 @@ header.check-buy {
 }
 
 .concept-price .concept {
+    font-family: 'Source Sans Pro';
     font-weight: bold;
     display: inline-block;
     float: left;
