@@ -76,7 +76,61 @@
 	}
 
 	header.count-bread {
+		background-color: #E2E2E2;
+		clear: both;
+		display: block;
+		height: 50px;
+	}
+
+	a.mobFilter {
+		background-color: #49B2A5;
+		color: #fff;
 		display: inline-block;
+		float: left;
+		height: inherit;
+	}
+
+	a.mobFilter div.counter {
+		display: inline-block;
+		float: left;
+	}
+
+	a.mobFilter div.counter div.name {
+		display: inline-block;
+		float: left;
+		font-size: 20px;
+		margin: 15px 5px 0px 10px;
+		font-weight: bold;
+	}
+
+	a.mobFilter div.counter div.results {
+		display: none;
+	}
+
+	a.mobFilter div.counter div.plus {
+		display: inline-block;
+		float: right;
+		font-size: 40px;
+		font-weight: bold;
+		margin: 0px 10px 0px 5px;
+	}
+
+	div.breadcrumsTD {
+		display: inline-block;
+		float: right;
+		margin: 10px 25px 0px 0px;
+	}
+
+	div.breadcrumsTD div.breadcrum {
+		padding: 5px;
+	}
+
+	div.breadcrumsTD div.breadcrum div.name {
+		margin-right: 5px;
+	}
+
+	div.breadcrumsTD div.breadcrum div.close {
+		margin-left: 5px;
 	}
 
 	footer.count-filter {
@@ -91,7 +145,62 @@
 	}
 
 	header.count-bread {
+		background-color: #E2E2E2;
+		clear: both;
+		display: block;
+		height: 50px;
+	}
+
+	a.mobFilter {
+		background-color: #49B2A5;
+		color: #fff;
 		display: inline-block;
+		float: left;
+		pointer-events: none;
+		height: inherit;
+	}
+
+	a.mobFilter div.counter {
+		display: inline-block;
+		float: left;
+	}
+
+	a.mobFilter div.counter div.name {
+		display: inline-block;
+		float: left;
+		font-size: 20px;
+		margin: 15px 5px 0px 10px;
+		font-weight: bold;
+	}
+
+	a.mobFilter div.counter div.results {
+		display: inline-block;
+		float: right;
+		font-size: 15px;
+		margin: 15px 10px 0px 5px;
+	}
+
+	a.mobFilter div.counter div.plus {
+		display: none;
+	}
+	
+
+	div.breadcrumsTD {
+		margin: 10px 25px 0px 0px;
+		display: inline-block;
+		float: right;
+	}
+
+	div.breadcrumsTD div.breadcrum {
+		padding: 5px;
+	}
+
+	div.breadcrumsTD div.breadcrum div.name {
+		margin-right: 5px;
+	}
+
+	div.breadcrumsTD div.breadcrum div.close {
+		margin-left: 5px;
 	}
 
 	footer.count-filter {

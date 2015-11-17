@@ -24,7 +24,7 @@
 @media (min-width: 481px) and (max-width: 959px) {
     .wrapper {
         max-width: 959px;
-        margin-top: 350px;
+        margin-top: 275px;
     }
 
     .filter {
@@ -49,7 +49,7 @@
 
 @media (min-width: 960px) {
     .wrapper {
-        margin-top: 350px;
+        margin-top: 300px;
     	width: 100%;
     }
 
