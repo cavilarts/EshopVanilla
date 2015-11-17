@@ -6,7 +6,16 @@
 	}
 
 	.closeHeaderMenu {
+		right: 0;
+    	top: -100px;
+    	padding: 20px;
 		font-size: 50px;
+	}
+
+	.modalHeaderMenu h2 {
+		padding: 3px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
 /*  Tablet: */
@@ -14,6 +23,19 @@
 @media (min-width: 481px) and (max-width: 959px) {
 	.modalHeaderMenu {
 		margin-top: 75px;
+	}
+
+	.closeHeaderMenu {
+		right: 0;
+	    top: -81px;
+	    padding: 14px;
+	    font-size: 45px;
+	}
+
+	.modalHeaderMenu h2 {
+		padding: 3px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
 /* Desktop: */
@@ -42,4 +64,18 @@
 	color: #505050;
 	font-weight: bold;
 	position: absolute;
+}
+
+.modalHeaderMenu h2 {
+	background-color: #414141;
+	color: #fff;
+	display: inline-block;
+}
+
+.headerMenuProducts {
+	list-style-image: url('../images/icons/list1.png');
+}
+
+.headerMenuProducts li {
+	color: #4F4F4F;
 }

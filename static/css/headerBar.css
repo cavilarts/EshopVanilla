@@ -91,13 +91,16 @@
 		display: inline-block;
 		list-style: none;
 		float: left;
+		margin-right: 25px;
 	}
 
 	ul.headerCategories li {
 		background-color: #4F4F4F;
 		color: #fff;
+		padding: 5px;
 		list-style: none;
 		display: inline-block;
+		margin: -6px 2px 0px 2px;
 	}
 
 	.shopName {
