@@ -248,8 +248,8 @@
         width: 20%;
 	}
 
-	input.filterCheck {
-		margin-right: 20px;
+	ul.filterOpt li {
+		line-height: 35px;
 	}
 
 	footer.count-filter {

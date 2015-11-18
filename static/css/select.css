@@ -1,0 +1,29 @@
+.modalHeaderMenu select {
+	background-color: blue;
+}
+
+section.footerMenu select {
+	background-color: green;
+}
+
+select {
+	padding:5px;
+	font-size: 25px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    color: #888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    color: #fff;
+}
+
+option {
+	color: red;
+}
