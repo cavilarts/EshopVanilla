@@ -323,6 +323,7 @@ h2.filterTitle {
 }
 
 div.filterMobTab h2.filterTitle {
+	padding: 5px;
 	margin: 0px 0px -2px 15px;
 }
 
@@ -331,9 +332,28 @@ ul.filterOpt {
 }
 
 ul.filterOpt li {
+	line-height: 25px;
 	color: #505050;
 }
 
 input.filterCheck {
 	float: right;
+	padding: 7px;
+    border-radius:0px;
+
+    -webkit-appearance:button;
+
+    border: solid 2px #505050;
+
+    background-color: #E2E2E2;
+    color: #FFF;
+    white-space: nowrap;
+    overflow: hidden;
+
+    width: 15px;
+    height: 15px;
+}
+
+input.filterCheck:checked {
+	color: #fff;
 }

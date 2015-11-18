@@ -47,6 +47,8 @@
     margin: 50px auto;
     padding: 0;
     position: relative;
+    overflow-x: none;
+    overflow-y: scroll;
 }
 
 .closeModal {

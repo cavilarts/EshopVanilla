@@ -44,7 +44,7 @@
                 <div class="shoppingCart">
                     <a href="#openShopCartModal" title="Open Shopping Cart">
                         <img alt="Shopping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
-                        <div class="productCounter">0</div>
+                        <div class="productCounter">3</div>
                     </a>
 
                     <a class="headerPull-downMenu" href="#openHeaderMenu"><img alt="Pull-down menu" class="headerPull-downMenu" src="static/images/icons/pull-down.png"></a>
@@ -80,33 +80,6 @@
             </div>
         </div>
 
-
-        <div class="slider">
-            <ul class="sliderImages">
-                <li class="sliderList">
-                    <img class="sliderImage sliderImage1" alt="Chocolate Bears">
-                    <p class="slimgDesc desc-one">THE MOST CUTE AND</p>
-                    <p class="slimgDesc desc-two">DELICIOUS BEARS</p>
-                </li>
-                <li class="sliderList">
-                    <img class="sliderImage sliderImage2" alt="Mint Gum">
-                    <p class="slimgDesc desc-one">COMFORTABLE FRESH</p>
-                    <p class="slimgDesc desc-two">IN YOUR MOUTH</p>
-                </li>
-                <li class="sliderList">
-                    <img class="sliderImage sliderImage3" alt="Jaw breakers">
-                    <p class="slimgDesc desc-one">CHEW THIS IS</p>
-                    <p class="slimgDesc desc-two">A HARD WORK</p>
-                </li>
-            </ul>
-            
-            <ul class="sliderButtons">
-                <li class="sliderButton sliderActive"></li>
-                <li class="sliderButton"></li>
-                <li class="sliderButton"></li>
-            </ul>
-        </div>
-
         <!-- Shopping cart -->
 
         <div id="openShopCartModal" class="modalBackground">
@@ -114,13 +87,13 @@
                 <a href="#closeModal" title="Close" class="closeModal">✕</a>
 
                 <div class="modalImage">
-                    <img alt="Candy shop" class="shopCartHeaderImage">
+                    <img alt="Candy shop" class="shopCartHeaderImage" src="static/images/sc-header-img.jpg">
                 </div>
                 
                 <header class="check-buy">
                     <div class="checkout">
                         <img alt="Shopping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
-                        <div class="productCounter">0</div>
+                        <div class="productCounter">3</div>
                         <div class="checkText">Checkout</div>
                     </div>
 
@@ -128,7 +101,44 @@
                 </header>
 
                 <section class="productsInCart">
-                    <p>There are not products in the cart</p>
+                    <ul class="cartList">
+                        <li class="cartItem">
+                            <img src="static/images/gum/mint/product_card.png">
+                            <div class="close">✕</div>
+                            <div class="name">MINT GUM</div>
+                            <div class="desc">Comfortable fresh</div>
+                            <div class="add-remove">
+                                <div class="add"><img src="static/images/icons/cart-add.png"></div>
+                                <div class="counter">0</div>
+                                <div class="remove"><img src="static/images/icons/cart-remove.png"></div>
+                            </div>
+                            <div class="price">[$ 0]</div>
+                        </li>
+                        <li class="cartItem">
+                            <img src="static/images/choco/bear/product_card.png">
+                            <div class="close">✕</div>
+                            <div class="name">CHOCO BEARS</div>
+                            <div class="desc">The most cute bears</div>
+                            <div class="add-remove">
+                                <div class="add"><img src="static/images/icons/cart-add.png"></div>
+                                <div class="counter">0</div>
+                                <div class="remove"><img src="static/images/icons/cart-remove.png"></div>
+                            </div>
+                            <div class="price">[$ 0]</div>
+                        </li>
+                        <li class="cartItem">
+                            <img src="static/images/hard/jaw/product_card.png">
+                            <div class="close">✕</div>
+                            <div class="name">JAW BREAKERS</div>
+                            <div class="desc">Chew this is hard</div>
+                            <div class="add-remove">
+                                <div class="add"><img src="static/images/icons/cart-add.png"></div>
+                                <div class="counter">0</div>
+                                <div class="remove"><img src="static/images/icons/cart-remove.png"></div>
+                            </div>
+                            <div class="price">[$ 0]</div>
+                        </li>
+                    </ul>
                 </section>
 
                 <hr class="sc-hr"></hr>
@@ -154,6 +164,32 @@
                     </div>
                 </section>
             </div>
+        </div>
+
+        <div class="slider">
+            <ul class="sliderImages">
+                <li class="sliderList">
+                    <img class="sliderImage sliderImage1" alt="Chocolate Bears">
+                    <p class="slimgDesc desc-one">THE MOST CUTE AND</p>
+                    <p class="slimgDesc desc-two">DELICIOUS BEARS</p>
+                </li>
+                <li class="sliderList">
+                    <img class="sliderImage sliderImage2" alt="Mint Gum">
+                    <p class="slimgDesc desc-one">COMFORTABLE FRESH</p>
+                    <p class="slimgDesc desc-two">IN YOUR MOUTH</p>
+                </li>
+                <li class="sliderList">
+                    <img class="sliderImage sliderImage3" alt="Jaw breakers">
+                    <p class="slimgDesc desc-one">CHEW THIS IS</p>
+                    <p class="slimgDesc desc-two">A HARD WORK</p>
+                </li>
+            </ul>
+            
+            <ul class="sliderButtons">
+                <li class="sliderButton sliderActive"></li>
+                <li class="sliderButton"></li>
+                <li class="sliderButton"></li>
+            </ul>
         </div>
 
         <script type="text/javascript" src="static/js/slider.js"></script>
@@ -289,7 +325,7 @@
                     <div class="filter">FILTERS</div>
                     <a href="#closeModal" title="Close" class="result">
                         <div>RESULTS</div>
-                        <div>&nbsp;&nbsp;&gt;</div>
+                        <div>&nbsp;&nbsp;〉</div>
                     </a>
                 </header>
 
