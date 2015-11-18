@@ -86,3 +86,22 @@
 .headerMenuProducts li {
 	color: #4F4F4F;
 }
+
+footer.headerMenu {
+	width: 100%;
+	clear: both;
+	background-color: #5DBAAE;
+	height: 75px;
+}
+
+div.copyright {
+	color: #fff;
+	float: left;
+	margin: 30px 0px 0px 15px;
+}
+
+div.socialNetworks {
+	float: right;
+	display: inline-block;
+	margin: 20px 15px 0px 0px;
+}

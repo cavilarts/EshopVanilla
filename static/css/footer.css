@@ -121,7 +121,7 @@ footer.footer  hr {
 .countries, .companyList {
 	cursor: pointer;
 	margin: auto;
-	width: auto;
+	width: 100%;
 }
 
 .footerOptions {

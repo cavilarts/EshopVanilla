@@ -6,6 +6,7 @@
         
         <!-- Stylesheets -->
         <link rel="stylesheet" type="text/css" href="static/css/catMenu.css">
+        <link rel="stylesheet" type="text/css" href="static/css/checkboxes.css">
         <link rel="stylesheet" type="text/css" href="static/css/filters.css">
         <link rel="stylesheet" type="text/css" href="static/css/footer.css">
         <link rel="stylesheet" type="text/css" href="static/css/headerBar.css">
@@ -23,7 +24,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Prodigious Store Challenge</title>
+        <title>Candy Bucket</title>
     </head>
 
     <body>
@@ -78,7 +79,15 @@
                     <li>LIMITED WARRANCY</li>
                 </ul>
 
-                <p>&nbsp;</p>
+                <footer class="headerMenu">
+                    <div class="copyright">&copy; DAVID RIVAS 2015</div>
+
+                    <div class="socialNetworks">
+                        <a class="socialLink" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//localhost%3A3000/" target="_blank"><img alt="Facebook" class="Facebook" src="static/images/social-media/fb.png" target="_blank"></a>
+                        <a class="socialLink" href="https://twitter.com/home?status=%20Candy%20bucket%20http%3A//localhost%3A3000/" target="_blank"><img alt="Twitter" class="Twitter" src="static/images/social-media/twitter.png"></a>
+                        <a class="socialLink" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//localhost%3A3000/&title=Candy%20bucket&summary=The%20most%20interesting%20candy%20shop.&source=" target="_blank"><img alt="LinkedIn" class="LinkedIn" src="static/images/social-media/linkedin.png"></a>
+                    </div>
+                </footer>
             </div>
         </div>
 
@@ -249,26 +258,35 @@
                 <h2 class="filterTitle">SIZES</h2>
 
                 <ul class="filterOpt">
-                    <li>SMALL<input class="filterCheck" type="checkbox"></li>
-                    <li>MEDIUM<input class="filterCheck" type="checkbox"></li>
+                    <li>
+                        <div class="filterLabel">SMALL</div>
+
+                        <div class="filterCheck">
+                            <input id="filterBox" type="checkbox" checked value="None" name="check">
+                            <label for="filterBox"></label>
+                        </div>
+                    </li>
+
+                    <li>MEDIUM<input class="filterCheck" type="checkbox" checked></li>
+                    
                     <li>BIG<input class="filterCheck" type="checkbox"></li>
                 </ul>
 
                 <h2 class="filterTitle">TYPES</h2>
 
                 <ul class="filterOpt">
-                    <li>HARD<input class="filterCheck" type="checkbox"></li>
-                    <li>CHOCO<input class="filterCheck" type="checkbox"></li>
-                    <li>GUM<input class="filterCheck" type="checkbox"></li>
-                    <li>CARAMEL<input class="filterCheck" type="checkbox"></li>
+                    <li>HARD CANDIES<input class="filterCheck" type="checkbox" checked></li>
+                    <li>CHOCOLATES<input class="filterCheck" type="checkbox" checked></li>
+                    <li>GUM<input class="filterCheck" type="checkbox" checked></li>
+                    <li>CARAMELS<input class="filterCheck" type="checkbox"></li>
                     <li>JELLIES<input class="filterCheck" type="checkbox"></li>
                 </ul>
 
                 <h2 class="filterTitle">PRICES</h2>
 
                 <ul class="filterOpt">
-                    <li>$0 &middot; $10<input class="filterCheck" type="checkbox"></li>
-                    <li>$11 &middot; $20<input class="filterCheck" type="checkbox"></li>
+                    <li>$0 &middot; $10<input class="filterCheck" type="checkbox" checked></li>
+                    <li>$11 &middot; $20<input class="filterCheck" type="checkbox" checked></li>
                     <li>$21 &middot; $50<input class="filterCheck" type="checkbox"></li>
                     <li>$51 &middot; ++<input class="filterCheck" type="checkbox"></li>
                 </ul>
@@ -338,26 +356,42 @@
                 <h2 class="filterTitle">SIZES</h2>
 
                 <ul class="filterOpt">
-                    <li>SMALL<input class="filterCheck" type="checkbox"></li>
-                    <li>MEDIUM<input class="filterCheck" type="checkbox"></li>
+                    <li>
+                        <div class="filterLabel">SMALL</div>
+
+                        <div class="filterCheck">
+                            <input id="filterBox" type="checkbox" checked value="None" name="check">
+                            <label for="filterBox"></label>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="filterLabel">MEDIUM</div>
+
+                        <div class="filterCheck">
+                            <input id="filterBox" type="checkbox" checked value="None" name="check">
+                            <label for="filterBox"></label>
+                        </div>
+                    </li>
+
                     <li>BIG<input class="filterCheck" type="checkbox"></li>
                 </ul>
 
                 <h2 class="filterTitle">TYPES</h2>
 
                 <ul class="filterOpt">
-                    <li>HARD<input class="filterCheck" type="checkbox"></li>
-                    <li>CHOCO<input class="filterCheck" type="checkbox"></li>
-                    <li>GUM<input class="filterCheck" type="checkbox"></li>
-                    <li>CARAMEL<input class="filterCheck" type="checkbox"></li>
+                    <li>HARD CANDIES<input class="filterCheck" type="checkbox" checked></li>
+                    <li>CHOCOLATES<input class="filterCheck" type="checkbox" checked></li>
+                    <li>GUM<input class="filterCheck" type="checkbox" checked></li>
+                    <li>CARAMELS<input class="filterCheck" type="checkbox"></li>
                     <li>JELLIES<input class="filterCheck" type="checkbox"></li>
                 </ul>
 
                 <h2 class="filterTitle">PRICES</h2>
 
                 <ul class="filterOpt">
-                    <li>$0 &middot; $10<input class="filterCheck" type="checkbox"></li>
-                    <li>$11 &middot; $20<input class="filterCheck" type="checkbox"></li>
+                    <li>$0 &middot; $10<input class="filterCheck" type="checkbox" checked></li>
+                    <li>$11 &middot; $20<input class="filterCheck" type="checkbox" checked></li>
                     <li>$21 &middot; $50<input class="filterCheck" type="checkbox"></li>
                     <li>$51 &middot; ++<input class="filterCheck" type="checkbox"></li>
                 </ul>
@@ -520,9 +554,9 @@
         <footer class="footer">
             <section class="socialMedia">
                 <ul>
-                    <li class="socialLink"><a href="#"><img alt="Facebook" class="Facebook" src="static/images/social-media/fb.png"></a></li>
-                    <li class="socialLink"><a href="#"><img alt="Twitter" class="Twitter" src="static/images/social-media/twitter.png"></a></li>
-                    <li class="socialLink"><a href="#"><img alt="LinkedIn" class="LinkedIn" src="static/images/social-media/linkedin.png"></a></li>
+                    <li class="socialLink"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//localhost%3A3000/" target="_blank"><img alt="Facebook" class="Facebook" src="static/images/social-media/fb.png"></a></li>
+                    <li class="socialLink"><a href="https://twitter.com/home?status=%20Candy%20bucket%20http%3A//localhost%3A3000/" target="_blank"><img alt="Twitter" class="Twitter" src="static/images/social-media/twitter.png"></a></li>
+                    <li class="socialLink"><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//localhost%3A3000/&title=Candy%20bucket&summary=The%20most%20interesting%20candy%20shop.&source=" target="_blank"><img alt="LinkedIn" class="LinkedIn" src="static/images/social-media/linkedin.png"></a></li>
                 </ul>
             </section>
 
@@ -545,6 +579,7 @@
                 <div class="companyMenu">
                     <select class="companyList">
                         <option>Newsletter</option>
+                        <option>Other options</option>
                     </select>
 
                     <p class="footerOptions">ABOUT</p>

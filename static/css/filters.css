@@ -269,6 +269,11 @@ div.breadcrum .close {
 	color: #47B3A5;
 	display: inline-block;
 	float: right;
+	cursor: pointer;
+}
+
+div.breadcrum .close:hover {
+	color: #fff;
 }
 
 /* Filter Mobile and Tablet */
@@ -328,13 +333,4 @@ h2.filterTitle {
 
 ul.filterOpt {
 	list-style-image: url('../images/icons/list1.png');
-}
-
-ul.filterOpt li {
-	line-height: 25px;
-	color: #505050;
-}
-
-input.filterCheck {
-	float: right;
 }

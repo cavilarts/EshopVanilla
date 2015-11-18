@@ -1,0 +1,92 @@
+/* Mobile and tablet */
+@media (max-width: 959px) {
+	div.filterCheck {
+		width: 30px;
+		height: 30px;
+	}
+
+	div.filterCheck label {
+		width: 26px;
+		height: 26px;
+	}
+
+	div.filterCheck label:after {
+		width: 10px;
+	    height: 5px;
+	    top: 7px;
+	    left: 6px;
+	    border: 3px solid #505050;
+	}
+}
+
+/* Desktop */
+@media (min-width: 960px) {
+	div.filterCheck {
+		width: 23px;
+		height: 23px;
+	}
+
+	div.filterCheck label {
+		height: 19px;
+		width: 19px;
+	}
+
+	div.filterCheck label:after {
+		width: 9px;
+		height: 5px;
+		top: 4px;
+		left: 4px;
+		border: 3px solid #33877E;
+	}
+}
+
+/* All */
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+ul.filterOpt li > div {
+	display: inline;
+}
+
+div.filterLabel {
+	color: #414141;
+}
+
+div.filterCheck {
+	float: right;
+	background: #4F4F4F;
+	position: relative;
+}
+
+div.filterCheck > * {
+	float: right;
+}
+
+div.filterCheck label {
+	cursor: pointer;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	background: #E2E2E2;
+}
+
+div.filterCheck label:after {
+	opacity: 0;
+	content: '';
+	background: transparent;
+	position: absolute;	
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-50deg);
+	-moz-transform: rotate(-50deg);
+	-o-transform: rotate(-50deg);
+	-ms-transform: rotate(-50deg);
+	transform: rotate(-50deg);
+}
+
+div.filterCheck input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
