@@ -252,8 +252,6 @@ header.check-buy {
 
 .productsInCart {
     margin: auto;
-    width: 90%;
-    overflow-x: none;
     overflow-y: scroll;
 }
 
@@ -315,11 +313,16 @@ li.cartItem div.add-remove > div {
     display: inline-block;
 }
 
-li.cartItem div.add-remove div.add:hover {
+img.addUp, img.removeDown {
+    vertical-align: top;
+    margin: -5px 0px 0px 0px;
+}
+
+img.addUp:hover {
     content: url('../images/icons/cart-add-hover.png');
 }
 
-li.cartItem div.add-remove div.remove:hover {
+img.removeDown:hover {
     content: url('../images/icons/cart-remove-hover.png');
 }
 

@@ -70,6 +70,13 @@
 	background-color: #414141;
 	color: #fff;
 	display: inline-block;
+	margin-bottom: -5px;
+}
+
+.modalHeaderMenu select {
+	width: 90%;
+	margin: auto;
+	display: block;
 }
 
 .headerMenuProducts {

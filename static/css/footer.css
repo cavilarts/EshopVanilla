@@ -92,19 +92,25 @@ footer.footer > hr {
 
 .countries, .companyList {
 	cursor: pointer;
-	width: 120px;
+	margin: auto;
+	width: 90%;
 }
 
 .footerOptions {
 	line-height: 10px;
 }
 
-section.copy {
-	max-width: 100%;
-	display: inline-block;
+footer.copyright {
+	width: 100%;
+	display: block;
 	background-color: #3F3F3F;
+	padding: 5px;
+	margin-left: -15px;
+	clear: both;
+	position: absolute;
 }
 
-section.copy div {
-	max-width: 100%;
+footer.copyright p {
+	text-align: center;
+	vertical-align: middle;
 }
