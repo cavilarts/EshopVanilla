@@ -77,8 +77,8 @@
 		width: 85%;
 	}
 
-	input.filterCheck {
-		margin-right: 15px;
+	ul.filterOpt li {
+		line-height: 35px;
 	}
 }
 
@@ -138,6 +138,12 @@
 	input.filterCheck {
 		margin-right: 15px;
 	}
+
+	ul.filterOpt li {
+		line-height: 35px;
+	}
+
+	/* ----- */
 
 	div.breadcrumsTD {
 		display: inline-block;
@@ -314,6 +320,19 @@ header.filter-result a.result {
 header.filter-result a.result div:nth-child(1) {
 	float: left;
 	display: inline-block;
+}
+
+section.wrapperFilter {
+	width: 100%;
+	position: relative;
+	overflow-y: scroll;
+	max-height: 500px;
+}
+
+/* Desktop filter */
+
+aside.filter {
+	z-index: 999;
 }
 
 /* Applied to all filters */
