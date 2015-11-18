@@ -13,6 +13,10 @@
 		margin-right: -15px;
 		position: relative;
     }
+
+    .countryAndCategories, .companyMenu {
+    	display: block;
+    }
 }
 
 /*  Tablet: */
@@ -20,6 +24,18 @@
 @media (min-width: 481px) and (max-width: 959px) {
     .footerMenu hr {
     	display: none;
+    }
+
+    .countryAndCategories, .companyMenu {
+    	display: inline-block;
+    }
+
+    .countryAndCategories {
+    	margin-right: 15px;
+    }
+
+    .companyMenu {
+    	margin-left: 15px;
     }
 }
 
@@ -32,6 +48,18 @@
 
     .footerMenu hr {
     	display: none;
+    }
+
+    .countryAndCategories, .companyMenu {
+    	display: inline-block;
+    }
+
+    .countryAndCategories {
+    	margin-right: 15px;
+    }
+
+    .companyMenu {
+    	margin-left: 15px;
     }
 }
 
@@ -79,7 +107,7 @@ footer.footer {
 	content: url("../images/social-media/linkedin-hover.png");
 }
 
-footer.footer > hr {
+footer.footer  hr {
 	border-bottom: 1px solid #707070;
 	border-top: 1px solid #3B3B3B;
 	clear: both;
@@ -93,7 +121,7 @@ footer.footer > hr {
 .countries, .companyList {
 	cursor: pointer;
 	margin: auto;
-	width: 90%;
+	width: auto;
 }
 
 .footerOptions {

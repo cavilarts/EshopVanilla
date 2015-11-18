@@ -71,7 +71,7 @@
 /* Styles, not sizes */
 
 .modalContent img {
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	position: relative;
 }
@@ -79,6 +79,7 @@
 h2.productDetailName {
 	background-color: #414141;
 	color: #fff;
+	padding: 5px;
 	display: inline-block;
 }
 

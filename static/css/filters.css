@@ -186,6 +186,7 @@
 		float: left;
 		pointer-events: none;
 		height: inherit;
+		width: 20%;
 	}
 
 	a.mobFilter div.counter {
@@ -235,6 +236,7 @@
 	}
 
 	aside.filter {
+		margin-top: 15px;
 		display: inline-block;
 		float: left;
         width: 20%;
@@ -320,9 +322,6 @@ h2.filterTitle {
 	background-color: #414141;
 	color: #fff;
 	display: inline-block;
-}
-
-div.filterMobTab h2.filterTitle {
 	padding: 5px;
 	margin: 0px 0px -2px 15px;
 }
