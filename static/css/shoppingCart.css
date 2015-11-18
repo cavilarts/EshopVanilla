@@ -139,6 +139,10 @@
         max-height: 150px;
     }
 
+    li.cartItem {
+        margin: 15px 10px 15px 10px;
+    }
+
     li.cartItem div.desc {
         font-size: .9em;
         top: 75px;
@@ -241,8 +245,8 @@ header.check-buy {
 
 .buy {
     float: right;
-    height: 45px;
-    width: auto;
+    height: 45px !important;
+    width: auto !important;
     position: relative;
 }
 
