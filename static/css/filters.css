@@ -26,6 +26,10 @@
 		display: none;
 	}
 
+	aside.filter {
+		display: none;
+	}
+
 	footer.count-filter {
 		background-color: #F4F4F4;
 		border-top: 1px solid #B2B2B2;
@@ -65,6 +69,16 @@
 		display: inline-block;
 		margin-left: 5px;
 		margin-right: 10px;
+	}
+
+	/* Filter modal */
+
+	div.filterMobTab {
+		width: 85%;
+	}
+
+	input.filterCheck {
+		margin-right: 15px;
 	}
 }
 
@@ -115,6 +129,16 @@
 		margin: 0px 10px 0px 5px;
 	}
 
+	/* Filter modal */
+
+	div.filterMobTab {
+		width: 80%;
+	}
+
+	input.filterCheck {
+		margin-right: 15px;
+	}
+
 	div.breadcrumsTD {
 		display: inline-block;
 		float: right;
@@ -131,6 +155,10 @@
 
 	div.breadcrumsTD div.breadcrum div.close {
 		margin-left: 5px;
+	}
+
+	aside.filter {
+		display: none;
 	}
 
 	footer.count-filter {
@@ -183,7 +211,6 @@
 	a.mobFilter div.counter div.plus {
 		display: none;
 	}
-	
 
 	div.breadcrumsTD {
 		margin: 10px 25px 0px 0px;
@@ -201,6 +228,20 @@
 
 	div.breadcrumsTD div.breadcrum div.close {
 		margin-left: 5px;
+	}
+
+	div.filterMobTab {
+		display: none;
+	}
+
+	aside.filter {
+		display: inline-block;
+		float: left;
+        width: 15%;
+	}
+
+	input.filterCheck {
+		/*margin-right: 15px;*/
 	}
 
 	footer.count-filter {
@@ -225,5 +266,74 @@ div.breadcrum .name {
 div.breadcrum .close {
 	color: #47B3A5;
 	display: inline-block;
+	float: right;
+}
+
+/* Filter Mobile and Tablet */
+
+div.filterMobTab {
+    background: #fff;
+    border: 5px solid #4F4F4F;
+    margin: 50px auto;
+    padding: 0;
+    position: relative;
+}
+
+header.filter-result {
+	background-color: #F4F4F4;
+	display: block;
+	height: 50px;
+	border-bottom: 1px solid #DCDCDC;
+	margin-bottom: 20px;
+}
+
+header.filter-result div.filter {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 10px;
+}
+
+header.filter-result a.result {
+	background-color: #49B2A5;
+	color: #fff;
+	display: inline-block;
+	float: right;
+	width: 100px;
+	padding: 16px 10px 16px 10px;
+}
+
+header.filter-result a.result div:nth-child(1) {
+	float: left;
+	display: inline-block;
+}
+
+/* Applied to all filters */
+
+div.filter-result a.result div:nth-child(2) {
+	float: right;
+	display: inline-block;
+}
+
+h2.filterTitle {
+	background-color: #414141;
+	color: #fff;
+	display: inline-block;
+}
+
+div.filterMobTab h2.filterTitle {
+	margin: 0px 0px -2px 15px;
+}
+
+ul.filterOpt {
+	list-style-image: url('../images/icons/list1.png');
+}
+
+ul.filterOpt li {
+	color: #505050;
+}
+
+input.filterCheck {
 	float: right;
 }

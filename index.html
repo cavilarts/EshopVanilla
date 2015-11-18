@@ -52,6 +52,24 @@
             </div>
         </header>
 
+        <!-- Header Menu -->
+
+        <div id="openHeaderMenu" class="modalBackground">
+            <div class="modalHeaderMenu">
+                <a href="#closeModal" title="Close" class="closeHeaderMenu">✕</a>
+                <h2>PRODUCTS</h2>
+                <ul class="headerMenuProducts">
+                    <li>GUMS</li>
+                    <li>CHOCOLATES</li>
+                    <li>HARD CANDIES</li>
+                    <li>OTHER</li>
+                </ul>
+
+                <!-- ADD More Please -->
+            </div>
+        </div>
+
+
         <div class="slider">
             <ul class="sliderImages">
                 <li class="sliderList">
@@ -76,6 +94,55 @@
                 <li class="sliderButton"></li>
                 <li class="sliderButton"></li>
             </ul>
+        </div>
+
+        <!-- Shopping cart -->
+
+        <div id="openShopCartModal" class="modalBackground">
+            <div class="modalContent">
+                <a href="#closeModal" title="Close" class="closeModal">✕</a>
+
+                <div class="modalImage">
+                    <img alt="Candy shop" class="shopCartHeaderImage">
+                </div>
+                
+                <header class="check-buy">
+                    <div class="checkout">
+                        <img alt="Shopping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
+                        <div class="productCounter">0</div>
+                        <div class="checkText">Checkout</div>
+                    </div>
+
+                    <img class="buy" src="static/images/icons/buy.png">
+                </header>
+
+                <section class="productsInCart">
+                    <p>There are not products in the cart</p>
+                </section>
+
+                <hr class="sc-hr"></hr>
+
+                <section class="total">
+                    <div class="concept-price">
+                        <div class="concept">Subtotal:</div>
+                        <div class="price">$ 0</div>
+                    </div>
+
+                    <br>
+
+                    <div class="concept-price">
+                        <div class="concept">Shipping cost:</div>
+                        <div class="price">$ 0</div>
+                    </div>
+
+                    <hr class="cp-hr">
+
+                    <div class="concept-price">
+                        <div class="concept">Total</div>
+                        <div class="price">$ 0</div>
+                    </div>
+                </section>
+            </div>
         </div>
 
         <script type="text/javascript" src="static/js/slider.js"></script>
@@ -129,7 +196,34 @@
             </header>
 
             <!-- Only for desktop -->
-            <aside class="filter"></aside>
+            <aside class="filter">
+                <h2 class="filterTitle">SIZES</h2>
+
+                <ul class="filterOpt">
+                    <li>SMALL<input class="filterCheck" type="checkbox"></li>
+                    <li>MEDIUM<input class="filterCheck" type="checkbox"></li>
+                    <li>BIG<input class="filterCheck" type="checkbox"></li>
+                </ul>
+
+                <h2 class="filterTitle">TYPES</h2>
+
+                <ul class="filterOpt">
+                    <li>HARD<input class="filterCheck" type="checkbox"></li>
+                    <li>CHOCO<input class="filterCheck" type="checkbox"></li>
+                    <li>GUM<input class="filterCheck" type="checkbox"></li>
+                    <li>CARAMEL<input class="filterCheck" type="checkbox"></li>
+                    <li>JELLIES<input class="filterCheck" type="checkbox"></li>
+                </ul>
+
+                <h2 class="filterTitle">PRICES</h2>
+
+                <ul class="filterOpt">
+                    <li>$0 &middot; $10<input class="filterCheck" type="checkbox"></li>
+                    <li>$11 &middot; $20<input class="filterCheck" type="checkbox"></li>
+                    <li>$21 &middot; $50<input class="filterCheck" type="checkbox"></li>
+                    <li>$51 &middot; ++<input class="filterCheck" type="checkbox"></li>
+                </ul>
+            </aside>
 
             <section class="productList">
                 <div class="productCard">
@@ -175,77 +269,45 @@
             </footer>
         </div>
 
-        <!-- Shopping cart: you should tell me what is the apropriate position of this modal box -->
-
-        <div id="openShopCartModal" class="modalBackground">
-            <div class="modalContent">
-                <a href="#closeModal" title="Close" class="closeModal">✕</a>
-
-                <div class="modalImage">
-                    <img alt="Candy shop" class="shopCartHeaderImage">
-                </div>
-                
-                <header class="check-buy">
-                    <div class="checkout">
-                        <img alt="Shopping Cart" class="scIcon" src="static/images/icons/cart.png"></img>
-                        <div class="productCounter">0</div>
-                        <div class="checkText">Checkout</div>
-                    </div>
-
-                    <img class="buy" src="static/images/icons/buy.png">
-                </header>
-
-                <section class="productsInCart">
-                    <p>There are not products in the cart</p>
-                </section>
-
-                <hr class="sc-hr"></hr>
-
-                <section class="total">
-                    <div class="concept-price">
-                        <div class="concept">Subtotal:</div>
-                        <div class="price">$ 0</div>
-                    </div>
-
-                    <br>
-
-                    <div class="concept-price">
-                        <div class="concept">Shipping cost:</div>
-                        <div class="price">$ 0</div>
-                    </div>
-
-                    <hr class="cp-hr">
-
-                    <div class="concept-price">
-                        <div class="concept">Total</div>
-                        <div class="price">$ 0</div>
-                    </div>
-                </section>
-            </div>
-        </div>
-
-        <!-- Header Menu -->
-
-        <div id="openHeaderMenu" class="modalBackground">
-            <div class="modalHeaderMenu">
-                <a href="#closeModal" title="Close" class="closeHeaderMenu">✕</a>
-                <h2>PRODUCTS</h2>
-                <ul class="headerMenuProducts">
-                    <li>GUMS</li>
-                    <li>CHOCOLATES</li>
-                    <li>HARD CANDIES</li>
-                    <li>OTHER</li>
-                </ul>
-
-                <!-- ADD More Please -->
-            </div>
-        </div>
-
+        
         <!-- Filter for mobile and tablet -->
 
         <div id="filterMobTab" class="modalBackground">
-            <div class="modalContent">
-                <p>Hola</p>
+            <div class="filterMobTab">
+                <header class="filter-result">
+                    <div class="filter">FILTERS</div>
+                    <a href="#closeModal" title="Close" class="result">
+                        <div>RESULTS</div>
+                        <div>&nbsp;&nbsp;&gt;</div>
+                    </a>
+                </header>
+
+                <h2 class="filterTitle">SIZES</h2>
+
+                <ul class="filterOpt">
+                    <li>SMALL<input class="filterCheck" type="checkbox"></li>
+                    <li>MEDIUM<input class="filterCheck" type="checkbox"></li>
+                    <li>BIG<input class="filterCheck" type="checkbox"></li>
+                </ul>
+
+                <h2 class="filterTitle">TYPES</h2>
+
+                <ul class="filterOpt">
+                    <li>HARD<input class="filterCheck" type="checkbox"></li>
+                    <li>CHOCO<input class="filterCheck" type="checkbox"></li>
+                    <li>GUM<input class="filterCheck" type="checkbox"></li>
+                    <li>CARAMEL<input class="filterCheck" type="checkbox"></li>
+                    <li>JELLIES<input class="filterCheck" type="checkbox"></li>
+                </ul>
+
+                <h2 class="filterTitle">PRICES</h2>
+
+                <ul class="filterOpt">
+                    <li>$0 &middot; $10<input class="filterCheck" type="checkbox"></li>
+                    <li>$11 &middot; $20<input class="filterCheck" type="checkbox"></li>
+                    <li>$21 &middot; $50<input class="filterCheck" type="checkbox"></li>
+                    <li>$51 &middot; ++<input class="filterCheck" type="checkbox"></li>
+                </ul>
             </div>
         </div>
 

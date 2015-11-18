@@ -7,15 +7,12 @@
     }
 
     .productList {
-    	width: 480px;
-    	padding: 25px;
+    	width: 100%;
     }
 
     .productCard {
     	display: block;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 20px auto 20px auto;
     }
 }
 
@@ -27,21 +24,14 @@
         margin-top: 275px;
     }
 
-    .filter {
-        float: left;
-        width: 25%;
-    }
-
     .productList {
-        float: right;
-        width: 70%;
+        padding: 15px;
     }
 
     .productCard {
         background-color: #F4F4F4;
         display: inline-block;
         margin: 10px;
-        width: 74%;
     }
 }
 
@@ -50,12 +40,7 @@
 @media (min-width: 960px) {
     .wrapper {
         margin-top: 300px;
-    	width: 100%;
-    }
-
-    .filter {
-        float: left;
-        width: 15%;
+        width: 100%;
     }
 
     .productList {
@@ -84,8 +69,6 @@
 .productList {
     display: inline-block;
     position: relative;
-    margin: auto;
-    padding: auto;
 }
 
 .productCard {
