@@ -98,3 +98,13 @@ footer.footer > hr {
 .footerOptions {
 	line-height: 10px;
 }
+
+section.copy {
+	max-width: 100%;
+	display: inline-block;
+	background-color: #3F3F3F;
+}
+
+section.copy div {
+	max-width: 100%;
+}

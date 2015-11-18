@@ -25,6 +25,7 @@
     }
 
     .productList {
+        background-color: #F4F4F4;
         padding: 15px;
     }
 
@@ -44,8 +45,10 @@
     }
 
     .productList {
+        background-color: #F4F4F4;
         float: right;
         width: 80%;
+        height: 100%;
     }
 
 	.productCard {
