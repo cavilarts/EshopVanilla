@@ -28,6 +28,7 @@
 
     .countryAndCategories, .companyMenu {
     	display: inline-block;
+    	min-width: 208px;
     }
 
     .countryAndCategories {
@@ -52,6 +53,7 @@
 
     .countryAndCategories, .companyMenu {
     	display: inline-block;
+    	width: 300px;
     }
 
     .countryAndCategories {
@@ -118,14 +120,13 @@ footer.footer  hr {
 	padding: 7.5px;
 }
 
-.countries, .companyList {
-	cursor: pointer;
-	margin: auto;
-	width: 100%;
-}
-
 .footerOptions {
 	line-height: 10px;
+	cursor: pointer;
+}
+
+.footerOptions:hover {
+	color: #5DBAAE;
 }
 
 footer.copyright {
@@ -133,12 +134,24 @@ footer.copyright {
 	display: block;
 	background-color: #3F3F3F;
 	padding: 5px;
-	margin-left: -15px;
+	margin-bottom: 10px;
 	clear: both;
-	position: absolute;
 }
 
 footer.copyright p {
 	text-align: center;
 	vertical-align: middle;
+}
+
+a.authorFooter, a.authorFooter:visited {
+	color: #fff;
+}
+
+a.authorFooter:hover {
+	color: #5DBAAE;
+}
+
+div.final {
+	background-color: transparent;
+	height: 25px;
 }

@@ -67,10 +67,12 @@
                     <li>OTHER</li>
                 </ul>
 
-                <select>
-                    <option>Country</option>
-                </select>
-
+                <div class="modalCountries">
+                    <select>
+                        <option>Country</option>
+                    </select>
+                </div>
+                
                 <h2>MORE</h2>
 
                 <ul class="headerMenuProducts">
@@ -89,6 +91,8 @@
                         <a class="socialLink" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//localhost%3A3000/&title=Candy%20bucket&summary=The%20most%20interesting%20candy%20shop.&source=" target="_blank"><img alt="LinkedIn" class="LinkedIn" src="static/images/social-media/linkedin.png"></a>
                     </div>
                 </footer>
+
+                <div class="final"></div>
             </div>
         </div>
 
@@ -728,9 +732,11 @@
 
             <section class="footerMenu">
                 <div class="countryAndCategories">
-                    <select class="countries">
-                        <option>Country</option>
-                    </select>
+                    <div class="footerCountries">
+                        <select>
+                            <option>Country</option>
+                        </select>
+                    </div>
 
                     <p class="footerOptions">GUMS</p>
                     <p class="footerOptions">CHOCOLATES</p>
@@ -741,21 +747,25 @@
                 <hr>
 
                 <div class="companyMenu">
-                    <select class="companyList">
-                        <option>Newsletter</option>
-                        <option>Other options</option>
-                    </select>
+                    <div class="companyList">
+                        <select>
+                            <option>Newsletter</option>
+                            <option>Other options</option>
+                        </select>
+                    </div>
 
                     <p class="footerOptions">ABOUT</p>
                     <p class="footerOptions">PRIVACY POLICY</p>
                     <p class="footerOptions">TERMS & CONDITIONS</p>
                     <p class="footerOptions">LIMITED WARRANTY</p>
                 </div>
-
-                <footer class="copyright">
-                    <p>&copy; DAVID RIVAS 2015</p>
-                </footer>
             </section>
+
+            <footer class="copyright">
+                <p>&copy; <a class="authorFooter" href="https://www.linkedin.com/in/davrivas" target="_blank">DAVID RIVAS</a> 2015</p>
+            </footer>
+
+            <div class="final"></div>
         </footer>
     </body>
 </html>
