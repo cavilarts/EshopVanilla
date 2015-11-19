@@ -93,7 +93,7 @@
 		background-color: #E2E2E2;
 		clear: both;
 		display: block;
-		height: 50px;
+		height: 75px;
 	}
 
 	a.mobFilter {
@@ -102,6 +102,7 @@
 		display: inline-block;
 		float: left;
 		height: inherit;
+		width: 200px;
 	}
 
 	a.mobFilter div.counter {
@@ -113,8 +114,8 @@
 		display: inline-block;
 		float: left;
 		font-size: 20px;
-		margin: 15px 5px 0px 10px;
 		font-weight: bold;
+		margin: 24px 0px 0px 40px;
 	}
 
 	a.mobFilter div.counter div.results {
@@ -126,7 +127,7 @@
 		float: right;
 		font-size: 40px;
 		font-weight: bold;
-		margin: 0px 10px 0px 5px;
+		margin: 8px 0px 0px 15px;
 	}
 
 	/* Filter modal */
@@ -148,7 +149,7 @@
 	div.breadcrumsTD {
 		display: inline-block;
 		float: right;
-		margin: 10px 25px 0px 0px;
+		margin: 23px 25px 0px 0px;
 	}
 
 	div.breadcrumsTD div.breadcrum {
@@ -182,7 +183,7 @@
 		background-color: #E2E2E2;
 		clear: both;
 		display: block;
-		height: 50px;
+		height: 75px;
 	}
 
 	a.mobFilter {
@@ -204,15 +205,15 @@
 		display: inline-block;
 		float: left;
 		font-size: 20px;
-		margin: 15px 5px 0px 10px;
 		font-weight: bold;
+		margin: 25px 5px 0px 25px;
 	}
 
 	a.mobFilter div.counter div.results {
 		display: inline-block;
 		float: right;
 		font-size: 15px;
-		margin: 15px 10px 0px 5px;
+		margin: 25px 0px 0px 5px;
 	}
 
 	a.mobFilter div.counter div.plus {
@@ -220,7 +221,7 @@
 	}
 
 	div.breadcrumsTD {
-		margin: 10px 25px 0px 0px;
+		margin: 23px 25px 0px 0px;
 		display: inline-block;
 		float: right;
 	}
