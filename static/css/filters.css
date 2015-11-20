@@ -212,8 +212,8 @@
 	a.mobFilter div.counter div.results {
 		display: inline-block;
 		float: right;
-		font-size: 15px;
-		margin: 25px 0px 0px 5px;
+		font-size: 17px;
+		margin: 25px 0px 0px 10px;
 	}
 
 	a.mobFilter div.counter div.plus {
