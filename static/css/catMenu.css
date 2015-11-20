@@ -80,6 +80,8 @@
 
 .headerMenuProducts li {
 	color: #4F4F4F;
+	line-height: 27px;
+    font-size: 1.25em;
 }
 
 footer.headerMenu {

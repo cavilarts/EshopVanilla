@@ -149,11 +149,11 @@
 	div.breadcrumsTD {
 		display: inline-block;
 		float: right;
-		margin: 23px 25px 0px 0px;
+		margin: 17px 25px 0px 0px;
 	}
 
 	div.breadcrumsTD div.breadcrum {
-		padding: 5px;
+		padding: 10px;
 	}
 
 	div.breadcrumsTD div.breadcrum div.name {
@@ -221,13 +221,13 @@
 	}
 
 	div.breadcrumsTD {
-		margin: 23px 25px 0px 0px;
 		display: inline-block;
 		float: right;
+		margin: 17px 25px 0px 0px;
 	}
 
 	div.breadcrumsTD div.breadcrum {
-		padding: 5px;
+		padding: 10px;
 	}
 
 	div.breadcrumsTD div.breadcrum div.name {

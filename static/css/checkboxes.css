@@ -54,6 +54,7 @@ ul.filterOpt li > div {
 
 div.filterLabel {
 	color: #414141;
+	font-size: 1.25em;
 }
 
 div.filterCheck {
