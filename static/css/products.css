@@ -79,56 +79,45 @@
     height: 200px;
     border: 1px solid #000;
     font-family: Tahoma;
+    background-color: #E2E2E2;
 }
 
-.productCard:nth-child(1) {
-	background: url('../images/gum/mint/product_card.png');
+.productCard > img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
 }
 
-.productCard:nth-child(2) {
-    background: url('../images/choco/bear/product_card.png');
-}
-
-.productCard:nth-child(3) {
-    background: url('../images/hard/jaw/product_card.png');
-}
-
-.productCard:nth-child(4) {
-    background: url('../images/hard/rainbow/product_card.png');
-}
-
-.productCard:nth-child(5) {
-    background: url('../images/gum/gumonade/product_card.png');
-}
-
-.productCard > div {
-    float: right;
+.productCard > div, .productCard a {
     position: absolute;
 }
 
+.productCard a {
+    height: 30px;
+    width: 30px;
+}
+
 .productDescription, .productName {
-    padding: 5px;
+    
     background-color: #696969;
+    display: inline-block;
     color: #fff;
-    font-size: 16px;
+    vertical-align: middle;
 }
 
 .productDescription {
     margin: auto;
-    max-width: 115px;
-    margin-top: 50px;
-    margin-left: 160px;
-    text-align: center;
+    padding: 5px;
+    font-size: 15px;
 }
 
 .productName {
-    margin-left: 30px;
     font-weight: bold;
+    padding: 6px;
 }
 
 .productName, .productDetails, .addCart {
-    float: right;
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 .productDetails, .addCart {
@@ -137,13 +126,9 @@
     width: 30px;
 }
 
-.productCard a {
-    margin-left: 220px;
-    position: absolute;
-}
-
 .productDetails {
     background: url('../images/icons/details.png');
+    margin-left: 229px;
 }
 
 .productDetails:hover {
@@ -159,11 +144,80 @@
     background: url('../images/icons/addcart-hover.png');
 }
 
+/* Product #1 */
+
+.productCard:nth-child(1) .productDescription {
+    margin-top: 112px;
+    margin-left: 162px;
+}
+
+.productCard:nth-child(1) .productName {
+    margin-left: 129px;
+}
+
+/* Product #2 */
+
+.productCard:nth-child(2) .productDescription {
+    margin-top: 112px;
+    margin-left: 153px;
+}
+
+.productCard:nth-child(2) .productName {
+    margin-left: 68px;
+}
+
+/* Product #3 */
+
+.productCard:nth-child(3) .productDescription {
+    margin-top: 112px;
+    margin-left: 201px;
+}
+
+.productCard:nth-child(3) .productName {
+    margin-left: 89px;
+}
+
+/* Product #4 */
+
+.productCard:nth-child(4) .productDescription {
+    margin-top: 130px;
+    margin-left: 10px;
+}
+
+.productCard:nth-child(4) .productName {
+    margin-left: 10px;
+    font-size: 12px !important;
+    padding: 8px !important;
+}
+
+.productCard:nth-child(4) .productDetails {
+    margin-left: 154px !important;
+}
+
+.productCard:nth-child(4) .addCart {
+    margin-left: 185px !important;
+}
+
+/* Product #5 */
+
+.productCard:nth-child(5) .productDescription {
+    margin-top: 130px;
+    margin-left: 180px;
+}
+
+.productCard:nth-child(5) .productName {
+    margin-left: 119px;
+}
+
+/* Footer */
+
 footer.load-more {
     clear: both;
+    margin-top: 50px;
 }
 
 img.load-more {
     margin: auto;
     display: block;
+    bottom: 0px;
 }
