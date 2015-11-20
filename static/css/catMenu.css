@@ -100,3 +100,8 @@ div.socialNetworks {
 	display: inline-block;
 	margin: 20px 15px 0px 0px;
 }
+
+.modalHeaderMenu div.final {
+	background-color: transparent;
+	height: 25px;
+}

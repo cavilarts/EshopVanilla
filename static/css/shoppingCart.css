@@ -24,10 +24,20 @@
 
     .productsInCart {
         max-height: 300px;
+        max-width: 95%;
     }
 
     li.cartItem {
-        margin: 10px auto 10px auto;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    li.cartItem div.name {
+        top: 50px;
+    }
+
+    li.cartItem:nth-child(1) div.name {
+        top: 70px !important;
     }
 
     li.cartItem div.desc {
@@ -35,11 +45,11 @@
     }
 
     li.cartItem div.add-remove {
-        top: 75px;
+        top: 93px;
     }
 
     li.cartItem div.price {
-        top: 125px;
+        top: 130px;
     }
 
     .total {
@@ -89,16 +99,24 @@
         margin: 10px 5px 10px 5px;
     }
 
+    li.cartItem div.name {
+        top: 60px;
+    }
+
+    li.cartItem:nth-child(1) div.name {
+        top: 80px !important;
+    }
+
     li.cartItem div.desc {
         display: none;
     }
 
     li.cartItem div.add-remove {
-        top: 75px;
+        top: 105px;
     }
 
     li.cartItem div.price {
-        top: 125px;
+        top: 140px;
     }
 
     .sc-hr {
@@ -137,19 +155,35 @@
 
     .productsInCart {
         max-height: 150px;
+        margin: auto;
+    }
+
+    ul.cartList {
+        margin: auto;
+        display: block;
     }
 
     li.cartItem {
-        margin: 15px 10px 15px 10px;
+        margin: 15px 20px 15px 20px;
+    }
+
+    li.cartItem div.name {
+        top: 30px;
+        font-weight: bold;
+    }
+
+    li.cartItem:nth-child(1) div.name {
+        top: 50px !important;
     }
 
     li.cartItem div.desc {
-        font-size: .9em;
+        font-size: 1em;
         top: 75px;
+        left: 170px;
     }
 
     li.cartItem div.add-remove {
-        top: 100px;
+        top: 115px;
     }
 
     li.cartItem div.price {
@@ -270,7 +304,6 @@ li.cartItem {
     border-bottom: 5px solid #4F4F4F;
     display: inline-block;
     position: relative;
-    /*margin: 10px auto 10px auto; este en cada media */
 }
 
 li.cartItem img {
@@ -297,20 +330,17 @@ li.cartItem div.close:hover {
     background-color: #5BB8AD;
 }
 
+li.cartItem div.name {
+    font-size: 1.1em;
+}
+
 li.cartItem div.name, li.cartItem div.desc, li.cartItem div.price {
     color: #5E5E5E;
-    right: 25px;
 }
 
-li.cartItem div.name {
-    font-weight: bold;
-    top: 50px;
-    right: 25px;
-}
-
-li.cartItem div.add-remove {
+li.cartItem div.name, li.cartItem div.add-remove, li.cartItem div.price {
     display: block;
-    right: 25px;
+    left: 170px;
 }
 
 li.cartItem div.add-remove > div {

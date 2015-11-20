@@ -143,7 +143,7 @@ footer.copyright p {
 	vertical-align: middle;
 }
 
-div.final {
+.footer div.final {
 	background-color: transparent;
-	height: 25px;
+	height: 40px;
 }
